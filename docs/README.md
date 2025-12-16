@@ -10,7 +10,7 @@
 
 - **common** - 通用设备配置（适合大部分日常应用）
 - **gaming** - 游戏设备配置（专为游戏应用优化）
-- **transcend** - 破限设备配置（其他特定设备）
+- **transcend** - 破限设备配置（用于破除特定限制）
 
 ### 2. 创建配置文件
 
@@ -29,6 +29,10 @@
 # 模板配置
 [templates.your_device_template]
 # 可选字段
+version = "v1.0.0"          # 可选，模板版本（仅用于显示，不影响伪装）
+version_code = 20251212            # 可选，模板版本码（仅用于显示）
+author = "your_name"       # 可选，作者（仅用于显示）
+description = "设备亮点描述"  # 可选，描述（仅用于显示）
 packages = [
     "com.example.app1",
     "com.example.app2",
@@ -53,9 +57,12 @@ marketname = "市场型号名称"  # 可选
 | `model` | 是 | 设备型号 | `"marlin"` |
 | `device` | 是 | 设备代号 | `"Pixel XL"` |
 | `fingerprint` | 是 | 完整设备指纹 | `"google/marlin/marlin:10/...:user/release-keys"` |
-| `default_mode` | 否 | 默认模式 | `"lite"` 或 `"full"` |
 | `name` | 否 | 内部产品名称（仅full模式） | `"marlin"` |
 | `marketname` | 否 | 市场型号名称（仅full模式） | `"Pixel XL"` |
+| `version` | 否 | 模板版本（仅用于显示，不影响伪装） | `"1.0.0"` |
+| `version_code` | 否 | 模板版本码（仅用于显示，不影响伪装） | `1` |
+| `author` | 否 | 模板作者（仅用于显示） | `"Coolapk@Seyud"` |
+| `description` | 否 | 模板描述（仅用于显示） | `"特点：支持120Hz"` |
 
 ### 4. 模式说明
 
