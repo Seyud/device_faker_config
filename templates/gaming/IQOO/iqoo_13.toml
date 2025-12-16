@@ -1,4 +1,3 @@
-# 特点：王者144帧
 [templates.IQOO_13]
 manufacturer = "vivo"
 brand = "vivo"
@@ -8,3 +7,5 @@ product = "V2408A"
 fingerprint = ""
 name = "PD2408"
 marketname = "VIVO IQOO 13"
+author = "GitHub@qianxiao1234"
+description = "特点：王者144帧"
