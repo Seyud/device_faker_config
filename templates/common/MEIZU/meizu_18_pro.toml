@@ -1,0 +1,13 @@
+[templates."MEIZU 18 Pro"]
+description = "伪装机型为魅族18Pro用来关闭部分Flyme系统app广告"
+manufacturer = "meizu"
+brand = "meizu"
+model = "MEIZU 18 Pro"
+device = "meizu18Pro"
+product = ""
+fingerprint = ""
+name = "meizu_18Pro_CN"
+packages = [
+ "com.meizu.flyme.weather",
+ "com.android.browser" 
+ ]
