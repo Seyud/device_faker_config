@@ -1,0 +1,10 @@
+[templates."REDMI Turbo 5 Max"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2602BRT18C"
+device = "dash"
+product = "dash"
+fingerprint = ""
+name = "dash"
+marketname = "REDMI Turbo 5 Max"
+author = "Github@orangesroof"
