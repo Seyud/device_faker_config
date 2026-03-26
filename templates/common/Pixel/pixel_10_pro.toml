@@ -1,0 +1,10 @@
+[templates."Pixel 10 Pro"]
+manufacturer = "Google"
+brand = "Google"
+model = "GPJ78"
+device = "cometpro"
+product = "cometpro"
+fingerprint = "google/cometpro/cometpro:15/BP1A.250305.019/12965723:user/release-keys"
+name = "cometpro"
+marketname = "Pixel 10 Pro"
+author = "Github@orangesroof"
