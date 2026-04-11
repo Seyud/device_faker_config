@@ -1,0 +1,10 @@
+[templates."Pixel  Pro"]
+manufacturer = "Google"
+brand = "Google"
+model = "GXQ96“
+device = "tegu"
+product = "tegu"
+fingerprint = "google/tegu/tegu:16/BP4A.260205.001/2026030701:user/release-keys"
+name = "tegu"
+marketname = "Pixel 9a"
+author = "Github@jekee550"
