@@ -1,0 +1,11 @@
+[templates."MEIZU 20 Pro"]
+manufacturer = "meizu"
+brand = "meizu"
+model = "MEIZU 20 Pro"
+device = "meizu20Pro"
+name = "meizu_20Pro_CN"
+fingerprint = "meizu/meizu_20Pro_CN/meizu20Pro:14/UKQ1.230917.001/17001233086:user/release-keys"
+build_id = "UKQ1.230917.001"
+characteristics = "nosdcard"
+android_version = "14"
+sdk_int = 34
