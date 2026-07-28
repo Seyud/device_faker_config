@@ -1,0 +1,10 @@
+[templates."Xiaomi MIX 4"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2106118C"
+device = "odin"
+product = "odin"
+fingerprint = ""
+name = "odin"
+marketname = "Xiaomi MIX 4"
+author = "GitHub@JokerQi666"
