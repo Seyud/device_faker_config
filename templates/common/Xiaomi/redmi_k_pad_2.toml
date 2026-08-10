@@ -1,0 +1,12 @@
+[templates."REDMI K Pad 2"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "26048RP6AC"
+device = "yili"
+product = "yili"
+name = "yili"
+marketname = "REDMI K Pad 2"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

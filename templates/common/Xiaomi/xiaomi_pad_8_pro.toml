@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 8 Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "25091RP04C"
+device = "piano"
+product = "piano"
+name = "piano"
+marketname = "Xiaomi Pad 8 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

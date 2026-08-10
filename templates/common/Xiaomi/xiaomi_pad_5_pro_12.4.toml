@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 5 Pro 12.4"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "22081281AC"
+device = "dagu"
+product = "dagu"
+name = "dagu"
+marketname = "Xiaomi Pad 5 Pro 12.4"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

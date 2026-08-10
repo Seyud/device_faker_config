@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 6 Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "23046RP50C"
+device = "liuqin"
+product = "liuqin"
+name = "liuqin"
+marketname = "Xiaomi Pad 6 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

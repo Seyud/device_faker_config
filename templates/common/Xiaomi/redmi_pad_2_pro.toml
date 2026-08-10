@@ -1,0 +1,12 @@
+[templates."REDMI Pad 2 Pro"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "25099RP13C"
+device = "flute"
+product = "flute"
+name = "flute"
+marketname = "REDMI Pad 2 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

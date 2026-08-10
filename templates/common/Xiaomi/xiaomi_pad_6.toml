@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 6"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "23043RP34C"
+device = "pipa"
+product = "pipa"
+name = "pipa"
+marketname = "Xiaomi Pad 6"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

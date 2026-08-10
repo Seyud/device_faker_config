@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 7S Pro 12.5"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "25053RP5CC"
+device = "violin"
+product = "violin"
+name = "violin"
+marketname = "Xiaomi Pad 7S Pro 12.5"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

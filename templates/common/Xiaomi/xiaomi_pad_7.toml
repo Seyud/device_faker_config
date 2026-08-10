@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 7"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2410CRP4CC"
+device = "uke"
+product = "uke"
+name = "uke"
+marketname = "Xiaomi Pad 7"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

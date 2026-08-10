@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 5 Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M2105K81AC"
+device = "elish"
+product = "elish"
+name = "elish"
+marketname = "Xiaomi Pad 5 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

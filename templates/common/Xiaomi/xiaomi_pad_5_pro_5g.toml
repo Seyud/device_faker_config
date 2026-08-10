@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 5 Pro 5G"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M2105K81C"
+device = "enuma"
+product = "enuma"
+name = "enuma"
+marketname = "Xiaomi Pad 5 Pro 5G"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
