@@ -47,6 +47,8 @@ model = "设备型号"
 device = "设备代号"
 product = "产品代号"
 fingerprint = "完整设备指纹"
+hardware = "硬件代号"    # 可选
+build_id = "构建版本号"  # 可选
 name = "内部产品名称"  # 可选
 marketname = "市场型号名称"  # 可选
 ```
@@ -59,19 +61,16 @@ marketname = "市场型号名称"  # 可选
 | `manufacturer` | 是 | 设备制造商 | `"Google"` |
 | `brand` | 是 | 品牌 | `"Google"` |
 | `model` | 是 | 设备型号 | `"marlin"` |
-| `device` | 是 | 设备代号 | `"Pixel XL"` |
-| `fingerprint` | 是 | 完整设备指纹 | `"google/marlin/marlin:10/...:user/release-keys"` |
-| `name` | 否 | 内部产品名称（仅full模式） | `"marlin"` |
-| `marketname` | 否 | 市场型号名称（仅full模式） | `"Pixel XL"` |
+| `device` | 否 | 设备代号 | `"Pixel XL"` |
+| `fingerprint` | 否 | 完整设备指纹 | `"google/marlin/marlin:10/...:user/release-keys"` |
+| `hardware` | 否 | 硬件代号（对应 Build.HARDWARE / ro.hardware） | `"qcom"` |
+| `build_id` | 否 | 构建版本号（对应 Build.ID / ro.build.id） | `"UKQ1.230917.001"` |
+| `name` | 否 | 内部产品名称 | `"marlin"` |
+| `marketname` | 否 | 市场型号名称 | `"Pixel XL"` |
 | `version` | 否 | 模板版本（仅用于显示，不影响伪装） | `"1.0.0"` |
 | `version_code` | 否 | 模板版本码（仅用于显示，不影响伪装） | `1` |
 | `author` | 否 | 模板作者（仅用于显示） | `"Coolapk@Seyud"` |
 | `description` | 否 | 模板描述（仅用于显示） | `"特点：支持120Hz"` |
-
-### 4. 模式说明
-
-- **lite 模式**（推荐）：只修改 Build 类字段，隐蔽性更好
-- **full 模式**：同时修改 Build 类和 SystemProperties，可能被检测
 
 ## 设备信息获取
 
