@@ -48,6 +48,7 @@ device = "Device code name"
 product = "Product code name"
 fingerprint = "Complete device fingerprint"
 hardware = "Hardware code name"   # Optional
+board = "Board code name"         # Optional
 build_id = "Build ID"             # Optional
 name = "Internal product name"    # Optional
 marketname = "Market model name"  # Optional
@@ -64,6 +65,7 @@ marketname = "Market model name"  # Optional
 | `device` | No | Device code name | `"Pixel XL"` |
 | `fingerprint` | No | Complete device fingerprint | `"google/marlin/marlin:10/...:user/release-keys"` |
 | `hardware` | No | Hardware code name (maps to Build.HARDWARE / ro.hardware) | `"qcom"` |
+| `board` | No | Board code name (maps to Build.BOARD / ro.product.board) | `"kalama"` |
 | `build_id` | No | Build ID (maps to Build.ID / ro.build.id) | `"UKQ1.230917.001"` |
 | `name` | No | Internal product name | `"marlin"` |
 | `marketname` | No | Market model name | `"Pixel XL"` |
