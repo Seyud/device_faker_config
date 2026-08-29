@@ -1,0 +1,10 @@
+[templates."Xiaomi 1"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "MI-ONE"
+device = "mione_plus"
+product = "mione_plus"
+fingerprint = ""
+name = "mione_plus"
+marketname = "Xiaomi Mi-One Youth Edition"
+author = "GitHub@Z-fly"

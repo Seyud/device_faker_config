@@ -1,0 +1,10 @@
+[templates."Xiaomi 8 Explorer Edition"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1807E8S"
+device = "ursa"
+product = "ursa"
+fingerprint = "Xiaomi/ursa/ursa:9/PKQ1.180729.001/V10.2.1.0.PEHCNXM:user/release-keys"
+name = "ursa"
+marketname = "Xiaomi 8 Explorer Edition"
+author = "GitHub@Z-fly"
