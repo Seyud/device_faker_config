@@ -1,7 +1,7 @@
 [templates."Xiaomi 2S"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2S"
+model = "2013021"
 device = "aries"
 product = "aries"
 fingerprint = "Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys"
