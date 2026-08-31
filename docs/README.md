@@ -48,6 +48,7 @@ device = "设备代号"
 product = "产品代号"
 fingerprint = "完整设备指纹"
 hardware = "硬件代号"    # 可选
+board = "主板代号"      # 可选
 build_id = "构建版本号"  # 可选
 name = "内部产品名称"  # 可选
 marketname = "市场型号名称"  # 可选
@@ -64,6 +65,7 @@ marketname = "市场型号名称"  # 可选
 | `device` | 否 | 设备代号 | `"Pixel XL"` |
 | `fingerprint` | 否 | 完整设备指纹 | `"google/marlin/marlin:10/...:user/release-keys"` |
 | `hardware` | 否 | 硬件代号（对应 Build.HARDWARE / ro.hardware） | `"qcom"` |
+| `board` | 否 | 主板代号（对应 Build.BOARD / ro.product.board） | `"kalama"` |
 | `build_id` | 否 | 构建版本号（对应 Build.ID / ro.build.id） | `"UKQ1.230917.001"` |
 | `name` | 否 | 内部产品名称 | `"marlin"` |
 | `marketname` | 否 | 市场型号名称 | `"Pixel XL"` |
