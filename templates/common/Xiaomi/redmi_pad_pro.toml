@@ -1,0 +1,12 @@
+[templates."Redmi Pad Pro"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "2405CRPFDC"
+device = "dizi"
+product = "dizi"
+name = "dizi"
+marketname = "Redmi Pad Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

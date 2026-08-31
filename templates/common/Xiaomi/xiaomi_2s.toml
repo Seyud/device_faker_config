@@ -1,0 +1,10 @@
+[templates."Xiaomi 2S"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "MI 2S"
+device = "aries"
+product = "aries"
+fingerprint = "Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys"
+name = "aries"
+marketname = "Xiaomi 2S"
+author = "GitHub@Z-fly"

@@ -1,0 +1,10 @@
+[templates."REDMI Note 3"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "REDMI Note 3"
+device = "kenzo"
+product = "kenzo"
+fingerprint = ""
+name = "kenzo"
+marketname = "Redmi Note 3"
+author = "GitHub@Z-fly"

@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 5"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "21051182C"
+device = "nabu"
+product = "nabu"
+name = "nabu"
+marketname = "Xiaomi Pad 5"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

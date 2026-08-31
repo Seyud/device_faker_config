@@ -1,0 +1,12 @@
+[templates."Redmi Pad SE"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "23073RPBFC"
+device = "xun"
+product = "xun"
+name = "xun"
+marketname = "Redmi Pad SE"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

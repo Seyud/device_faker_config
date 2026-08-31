@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 7 Ultra"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "25032RP42C"
+device = "jinghu"
+product = "jinghu"
+name = "jinghu"
+marketname = "Xiaomi Pad 7 Ultra"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

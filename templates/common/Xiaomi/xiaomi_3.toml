@@ -1,0 +1,10 @@
+[templates."Xiaomi 3"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "MI 3"
+device = "pisces"
+product = "pisces"
+fingerprint = ""
+name = "pisces"
+marketname = "Xiaomi 3 TD"
+author = "GitHub@Z-fly"

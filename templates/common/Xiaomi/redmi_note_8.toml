@@ -1,0 +1,10 @@
+[templates."REDMI Note 8"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "M1908C3JE"
+device = "ginkgo"
+product = "ginkgo"
+fingerprint = ""
+name = "ginkgo"
+marketname = "Redmi Note 8"
+author = "GitHub@Z-fly"

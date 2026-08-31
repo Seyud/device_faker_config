@@ -47,7 +47,9 @@ model = "Device model"
 device = "Device code name"
 product = "Product code name"
 fingerprint = "Complete device fingerprint"
-name = "Internal product name"  # Optional
+hardware = "Hardware code name"   # Optional
+build_id = "Build ID"             # Optional
+name = "Internal product name"    # Optional
 marketname = "Market model name"  # Optional
 ```
 
@@ -59,19 +61,16 @@ marketname = "Market model name"  # Optional
 | `manufacturer` | Yes | Device manufacturer | `"Google"` |
 | `brand` | Yes | Brand | `"Google"` |
 | `model` | Yes | Device model | `"marlin"` |
-| `device` | Yes | Device code name | `"Pixel XL"` |
-| `fingerprint` | Yes | Complete device fingerprint | `"google/marlin/marlin:10/...:user/release-keys"` |
-| `name` | No | Internal product name (full mode only) | `"marlin"` |
-| `marketname` | No | Market model name (full mode only) | `"Pixel XL"` |
+| `device` | No | Device code name | `"Pixel XL"` |
+| `fingerprint` | No | Complete device fingerprint | `"google/marlin/marlin:10/...:user/release-keys"` |
+| `hardware` | No | Hardware code name (maps to Build.HARDWARE / ro.hardware) | `"qcom"` |
+| `build_id` | No | Build ID (maps to Build.ID / ro.build.id) | `"UKQ1.230917.001"` |
+| `name` | No | Internal product name | `"marlin"` |
+| `marketname` | No | Market model name | `"Pixel XL"` |
 | `version` | No | Template version (for display only, does not affect spoofing) | `"1.0.0"` |
 | `version_code` | No | Template version code (for display only, does not affect spoofing) | `1` |
 | `author` | No | Template author (for display only) | `"Coolapk@Seyud"` |
 | `description` | No | Template description (for display only) | `"Feature: 120Hz support"` |
-
-### 4. Mode Description
-
-- **lite mode** (recommended): Only modifies Build class fields, better stealth
-- **full mode**: Simultaneously modifies Build class and SystemProperties, may be detected
 
 ## Obtaining Device Information
 

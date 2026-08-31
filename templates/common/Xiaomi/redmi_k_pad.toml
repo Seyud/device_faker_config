@@ -1,0 +1,12 @@
+[templates."REDMI K Pad"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "25079RPDCC"
+device = "turner"
+product = "turner"
+name = "turner"
+marketname = "REDMI K Pad"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

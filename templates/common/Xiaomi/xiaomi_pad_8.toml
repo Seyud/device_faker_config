@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 8"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "25097RP43C"
+device = "yupei"
+product = "yupei"
+name = "yupei"
+marketname = "Xiaomi Pad 8"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

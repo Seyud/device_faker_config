@@ -1,0 +1,10 @@
+[templates."Redmi K20"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "M1903F10A"
+device = "davinci"
+product = "davinci"
+fingerprint = ""
+name = "davinci"
+marketname = "Redmi K20"
+author = "GitHub@Z-fly"

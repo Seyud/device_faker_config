@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 7 Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "24091RPADC"
+device = "muyu"
+product = "muyu"
+name = "muyu"
+marketname = "Xiaomi Pad 7 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

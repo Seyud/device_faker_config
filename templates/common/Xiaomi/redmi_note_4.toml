@@ -1,0 +1,10 @@
+[templates."REDMI Note 4"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "REDMI Note 4"
+device = "nikel"
+product = "nikel"
+fingerprint = ""
+name = "nikel"
+marketname = "Redmi Note 4"
+author = "GitHub@Z-fly"

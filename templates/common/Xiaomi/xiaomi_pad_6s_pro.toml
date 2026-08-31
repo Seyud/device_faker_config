@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 6S Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "24018RPACC"
+device = "sheng"
+product = "sheng"
+name = "sheng"
+marketname = "Xiaomi Pad 6S Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

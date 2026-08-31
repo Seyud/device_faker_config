@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 6 Max"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2307BRPDCC"
+device = "yudi"
+product = "yudi"
+name = "yudi"
+marketname = "Xiaomi Pad 6 Max"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

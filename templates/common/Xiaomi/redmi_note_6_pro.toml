@@ -1,0 +1,10 @@
+[templates."REDMI Note 6 Pro"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "M1806E7TI"
+device = "tulip"
+product = "tulip"
+fingerprint = ""
+name = "tulip"
+marketname = "Redmi Note 6 Pro India"
+author = "GitHub@Z-fly"
