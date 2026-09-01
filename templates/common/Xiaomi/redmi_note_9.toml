@@ -1,0 +1,10 @@
+[templates."REDMI Note 9"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "M2003J15SS"
+device = "merlin"
+product = "merlin"
+fingerprint = ""
+name = "merlin"
+marketname = "Redmi Note 9"
+author = "GitHub@Z-fly"

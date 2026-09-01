@@ -1,0 +1,10 @@
+[templates."Redmi 2"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "HM 2LTE-CMCC"
+device = "wt88047"
+product = "wt88047"
+fingerprint = ""
+name = "wt88047"
+marketname = "Redmi 2"
+author = "GitHub@Z-fly"

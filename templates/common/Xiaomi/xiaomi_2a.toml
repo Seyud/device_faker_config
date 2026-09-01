@@ -1,0 +1,10 @@
+[templates."Xiaomi 2A"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "MI 2A"
+device = "taurus"
+product = "taurus"
+fingerprint = ""
+name = "taurus"
+marketname = "Xiaomi 2A"
+author = "GitHub@Z-fly"

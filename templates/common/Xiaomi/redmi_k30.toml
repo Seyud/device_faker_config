@@ -1,0 +1,10 @@
+[templates."Redmi K30"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "M2001G7AE"
+device = "picasso"
+product = "picasso"
+fingerprint = ""
+name = "picasso"
+marketname = "Redmi K30 5G"
+author = "GitHub@Z-fly"

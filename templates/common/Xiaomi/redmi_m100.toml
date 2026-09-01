@@ -1,0 +1,10 @@
+[templates."REDMI M100"]
+manufacturer = "Xiaomi"
+brand = "REDMI"
+model = "26062RN92C"
+device = "steppe"
+product = "steppe"
+fingerprint = ""
+name = "steppe"
+marketname = "REDMI M100"
+author = "GitHub@Z-fly"

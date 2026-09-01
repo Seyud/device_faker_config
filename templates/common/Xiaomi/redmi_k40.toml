@@ -1,0 +1,10 @@
+[templates."Redmi K40"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "M2012K11AC"
+device = "alioth"
+product = "alioth"
+fingerprint = ""
+name = "alioth"
+marketname = "Redmi K40"
+author = "GitHub@Z-fly"
