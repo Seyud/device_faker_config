@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 9"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M656BA"
+device = "yupei"
+product = "yupei"
+name = "yupei"
+marketname = "Xiaomi Pad 9"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

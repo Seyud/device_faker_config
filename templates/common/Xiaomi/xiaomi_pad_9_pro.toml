@@ -1,0 +1,12 @@
+[templates."Xiaomi Pad 9 Pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2612CRPFFC"
+device = "shuntian"
+product = "shuntian"
+name = "shuntian"
+marketname = "Xiaomi Pad 9 Pro"
+fingerprint = " "
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
