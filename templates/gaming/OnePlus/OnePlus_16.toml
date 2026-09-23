@@ -1,0 +1,13 @@
+[templates."一加 16"]
+
+version = "v1.0.0"
+version_code = 1
+author = "浅雾川"
+description = "OnePlus 16"
+
+manufacturer = "OnePlus"
+brand = "OnePlus"
+model = "PYB110"
+device = "PYB110"
+product = "PYB110"
+marketname = "一加 16"
