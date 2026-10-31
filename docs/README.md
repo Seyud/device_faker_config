@@ -96,6 +96,11 @@ su -c getprop ro.build.fingerprint
 4. 创建 Pull Request，描述您添加的设备配置
 5. 等待代码审查
 
+> **`dist/templates.toml` 不需要动**：它是 WebUI 在线模板库用的聚合文件，由 CI
+> （`.github/workflows/bundle.yml`）在合入 `main` 后自动重新生成并提交。PR 只加模板
+> 文件即可，不会因为「忘了重新生成 dist」被卡住。想在本机自查可以运行
+> `python .github/scripts/bundle_templates.py --stdout > /dev/null`（只验证聚合能否跑通）。
+
 ## 注意事项
 
 - 配置文件名使用英文和下划线，避免特殊字符

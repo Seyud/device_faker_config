@@ -96,6 +96,13 @@ su -c getprop ro.build.fingerprint
 4. Create a Pull Request describing your device configuration
 5. Wait for code review
 
+> **You do not need to touch `dist/templates.toml`**: it is the aggregated bundle used by
+> the WebUI online template library and is regenerated and committed by CI
+> (`.github/workflows/bundle.yml`) after a merge into `main`. A PR only needs the template
+> files, so it never gets stuck on "forgot to regenerate dist". To self-check locally run
+> `python .github/scripts/bundle_templates.py --stdout > /dev/null` (validates that the
+> templates can be aggregated).
+
 ## Notes
 
 - Use English and underscores for file names, avoid special characters

@@ -1,0 +1,7 @@
+# 聚合产物必须是确定性的 LF 字节：.github/scripts/bundle_templates.py 按字节比对，
+# Windows 上 core.autocrlf=true 会把工作区文件翻成 CRLF，导致 --check 假阳性。
+dist/templates.toml text eol=lf
+
+# 模板文件统一 LF 入库（bundle 生成时本来就会把 CRLF 归一成 LF，入库保持一致可
+# 避免同一模板在不同平台被判定为「有改动」）。
+templates/**/*.toml text eol=lf

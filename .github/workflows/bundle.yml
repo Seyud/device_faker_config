@@ -1,0 +1,127 @@
+name: Template Bundle
+
+# dist/templates.toml 是 WebUI 在线模板库一次性拉取的聚合文件
+# （替代逐文件 700+ 次请求），必须与 templates/ 同步。
+#
+# **它由本 workflow 自动生成并提交，PR 不需要改动 dist/templates.toml**：
+# 合入 main 后这里重跑 bundle_templates.py，只在产物真的变化时才提交一条
+# `chore(dist): 自动聚合 templates.toml`。因此贡献者只负责模板文件本身，
+# 不会因为「忘了重新生成 dist」而卡住 PR，也不会出现多人同时手改同一份产物
+# 导致冲突。
+#
+# 若想在本机复现：python .github/scripts/bundle_templates.py
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'templates/**'
+      - '.github/scripts/bundle_templates.py'
+  workflow_dispatch:
+
+# 同一分支串行执行，避免两次聚合产物互相覆盖
+concurrency:
+  group: template-bundle-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    name: 自动聚合 dist/templates.toml
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          # 需要能 push 回当前分支（分支保护需放行 github-actions[bot]）
+          token: ${{ secrets.BUNDLE_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Regenerate bundle
+        run: |
+          python .github/scripts/bundle_templates.py
+
+      - name: Detect changes
+        id: detect
+        run: |
+          # 产物没有变化就不提交：模板改动可能不改任何字段语义（如仅改注释顺序），
+          # 也可能只动了 dist 之外的文件；空提交只会污染历史。
+          if git diff --quiet -- dist/templates.toml; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::dist/templates.toml 已是最新，无需提交"
+            exit 0
+          fi
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          git diff --stat -- dist/templates.toml
+
+      - name: Commit and push
+        if: steps.detect.outputs.changed == 'true'
+        env:
+          BRANCH: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+
+          count_templates() {
+            grep -c '^\[templates\.' dist/templates.toml || true
+          }
+
+          # $1 = amend：把重新聚合的改动并进上一条提交（rebase 重试的场合）
+          commit_dist() {
+            count="$(count_templates)"
+            message="chore(dist): 自动聚合 templates.toml（${count} 个模板）"
+            body="由 Template Bundle workflow 在模板变更后自动生成，无需人工编辑 dist/。"
+            if [ "${1:-}" = "amend" ]; then
+              git commit -q --amend -m "$message" -m "$body"
+            else
+              git commit -q -m "$message" -m "$body"
+            fi
+          }
+
+          git add dist/templates.toml
+          commit_dist
+
+          # 期间可能有人往同一分支 push：rebase 后重试；重试前按落地后的树重新聚合，
+          # 让推出去的 dist 与它落地的那个树自洽（期间合入的模板也要进产物）。
+          for attempt in 1 2 3; do
+            if git push origin "HEAD:${BRANCH}"; then
+              echo "::notice::已提交 dist/templates.toml（$(count_templates) 个模板）"
+              exit 0
+            fi
+            echo "::warning::push 失败（第 ${attempt} 次），拉取远端后重试"
+            git pull --rebase --autostash origin "${BRANCH}"
+            python .github/scripts/bundle_templates.py > /dev/null
+            git add dist/templates.toml
+            if ! git diff --cached --quiet; then
+              commit_dist amend
+            fi
+          done
+
+          echo "::error::无法推送 dist/templates.toml 到 ${BRANCH}。请确认分支保护放行 github-actions[bot]，或配置 BUNDLE_TOKEN（需要 repo contents 写权限）。"
+          exit 1
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo "### Template Bundle"
+            if [ "${{ steps.detect.outputs.changed }}" = "true" ]; then
+              echo "- 已重新生成并提交 \`dist/templates.toml\`：**$(grep -c '^\[templates\.' dist/templates.toml || true)** 个模板"
+            else
+              echo "- \`dist/templates.toml\` 已是最新，未产生提交"
+            fi
+            echo "- Gitee 镜像（device_faker_config_mirror）需按既有流程同步：\`python push_to_mirror.py\`"
+          } >> "$GITHUB_STEP_SUMMARY"

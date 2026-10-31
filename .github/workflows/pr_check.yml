@@ -1,5 +1,9 @@
 name: PR Review Checker
 
+# 注意：dist/templates.toml 是 CI 产物（.github/workflows/bundle.yml 在合入 main 后
+# 自动重新聚合并提交），**PR 不需要动它**。本 workflow 只验证「模板能否被聚合成
+# bundle」，绝不比对 dist/ 内容，所以贡献者不会被「忘了重新生成」卡住。
+
 on:
   pull_request:
     branches:
@@ -7,6 +11,7 @@ on:
       - master
     paths:
       - 'templates/**/*.toml'
+      - 'dist/templates.toml'
 
 jobs:
   validate-toml:
@@ -50,3 +55,19 @@ jobs:
             echo "::error::发现行尾有多余空格，请移除！"
             exit 1
           fi || true
+
+      - name: Check templates can be aggregated into bundle
+        run: |
+          # 只验证聚合能跑通，不落盘、不与 dist/templates.toml 比对。
+          # 这一步兜住两条 WebUI 依赖的硬不变式：stem 全局唯一（stem 就是导入键）、
+          # 每个模板文件恰好一个 [templates.*] 表且字段扁平。
+          # 产物由合入后的 Template Bundle workflow 自动生成并提交。
+          python .github/scripts/bundle_templates.py --stdout > /dev/null
+
+      - name: Remind that dist/templates.toml is generated
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          if git -c core.quotepath=false diff --name-only "$BASE_SHA"...HEAD -- dist/templates.toml | grep -q .; then
+            echo "::warning::本 PR 修改了 dist/templates.toml。该文件由 CI 在合入后自动重新生成，PR 里可以移除它（不阻塞合并）。"
+          fi

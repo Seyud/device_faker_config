@@ -12,9 +12,14 @@
 - 每个模板文件必须是「恰好一个 [templates."<名字>"] 表、无其它顶层键、无子表」；
 - stem 必须全局唯一——WebUI 用 stem 作为导入键，同名会让两条模板互相覆盖。
 
+**dist/templates.toml 是 CI 产物，PR 不需要提交它**：push 到 main 后由
+`.github/workflows/bundle.yml` 运行本脚本并自动提交（见该 workflow 的说明）。
+PR 侧只用 `--stdout` 验证「模板能否被聚合成 bundle」，不比对文件。
+
 用法：
-    python .github/scripts/bundle_templates.py           # 写入 dist/templates.toml
-    python .github/scripts/bundle_templates.py --check   # 只校验是否与源文件一致（CI 用）
+    python .github/scripts/bundle_templates.py            # 本机手动生成 dist/templates.toml
+    python .github/scripts/bundle_templates.py --check     # 校验工作区文件是否与源文件一致
+    python .github/scripts/bundle_templates.py --stdout    # 只把聚合结果打到 stdout（PR CI 用）
 """
 
 from __future__ import annotations
@@ -153,9 +158,26 @@ def render(entries: list[Entry]) -> bytes:
 
 
 def main() -> int:
-    check_only = "--check" in sys.argv[1:]
+    args = sys.argv[1:]
+    check_only = "--check" in args
+    emit_stdout = "--stdout" in args
+    if check_only and emit_stdout:
+        print("--check 与 --stdout 不能同时使用")
+        return 2
+
     entries = collect()
     payload = render(entries)
+
+    # 只做结构校验（PR CI）：不落盘、不比对，仅证明「模板能被聚合成 bundle」。
+    # 用 buffer 写，避免 Windows 的 sys.stdout 把 \n 翻成 \r\n。
+    if emit_stdout:
+        sys.stdout.buffer.write(payload)
+        sys.stdout.buffer.flush()
+        print(
+            f"✅ 聚合结构校验通过：{len(entries)} 个模板，{len(payload) / 1024:.1f} KB",
+            file=sys.stderr,
+        )
+        return 0
 
     if check_only:
         if not os.path.exists(OUTPUT_PATH):
@@ -163,6 +185,13 @@ def main() -> int:
             return 1
         current = open(OUTPUT_PATH, "rb").read()
         if current != payload:
+            # Windows + core.autocrlf=true 会把工作区文件翻成 CRLF；那种情况下内容其实一致，
+            # 而且 git 里存的仍是 LF（见 .gitattributes），不要误报成「需要重新生成」。
+            if current.replace(b"\r\n", b"\n") == payload:
+                print(
+                    "⚠️ dist/templates.toml 工作区是 CRLF（core.autocrlf），已按 LF 归一后一致，无需处理。"
+                )
+                return 0
             print("❌ dist/templates.toml 与 templates/ 不一致，请重新生成:")
             print("   python .github/scripts/bundle_templates.py")
             return 1
