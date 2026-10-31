@@ -1,0 +1,12 @@
+[templates."iPad Pro 10.5英寸 2017"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1852"
+device = "iPad7,4"
+product = "iPad7,4"
+fingerprint = ""
+name = "iPad7,4"
+marketname = "iPad Pro 10.5英寸 2017"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

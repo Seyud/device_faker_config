@@ -1,0 +1,12 @@
+[templates."iPad Air 13英寸 M2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2900"
+device = "iPad14,11"
+product = "iPad14,11"
+fingerprint = ""
+name = "iPad14,11"
+marketname = "iPad Air 13英寸 M2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

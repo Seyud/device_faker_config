@@ -1,0 +1,12 @@
+[templates."iPad Pro 11英寸 M5 2025"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3359"
+device = "iPad17,2"
+product = "iPad17,2"
+fingerprint = ""
+name = "iPad17,2"
+marketname = "iPad Pro 11英寸 M5 2025"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

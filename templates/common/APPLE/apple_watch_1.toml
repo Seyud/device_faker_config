@@ -1,0 +1,10 @@
+[templates."Apple Watch 1"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1554"
+device = "Watch1,2"
+product = "Watch1,2"
+fingerprint = ""
+name = "Watch1,2"
+marketname = "Apple Watch 1"
+author = "GitHub@JokerQi666"

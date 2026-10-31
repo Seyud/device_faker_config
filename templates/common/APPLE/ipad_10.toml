@@ -1,0 +1,12 @@
+[templates."iPad 10"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3162"
+device = "iPad13,19"
+product = "iPad13,19"
+fingerprint = ""
+name = "iPad13,19"
+marketname = "iPad 10"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

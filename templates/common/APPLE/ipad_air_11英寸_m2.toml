@@ -1,0 +1,12 @@
+[templates."iPad Air 11英寸 M2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2904"
+device = "iPad14,9"
+product = "iPad14,9"
+fingerprint = ""
+name = "iPad14,9"
+marketname = "iPad Air 11英寸 M2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

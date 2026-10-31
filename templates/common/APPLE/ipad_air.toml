@@ -1,0 +1,12 @@
+[templates."iPad Air"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1475"
+device = "iPad4,2"
+product = "iPad4,2"
+fingerprint = ""
+name = "iPad4,2"
+marketname = "iPad Air"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

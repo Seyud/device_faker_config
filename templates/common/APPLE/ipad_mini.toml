@@ -1,0 +1,12 @@
+[templates."iPad mini"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1455"
+device = "iPad2,7"
+product = "iPad2,7"
+fingerprint = ""
+name = "iPad2,7"
+marketname = "iPad mini"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

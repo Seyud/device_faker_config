@@ -1,0 +1,12 @@
+[templates."iPad Pro 12.9英寸 2015"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1652"
+device = "iPad6,8"
+product = "iPad6,8"
+fingerprint = ""
+name = "iPad6,8"
+marketname = "iPad Pro 12.9英寸 2015"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

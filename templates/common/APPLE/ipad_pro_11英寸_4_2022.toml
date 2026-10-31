@@ -1,0 +1,12 @@
+[templates."iPad Pro 11英寸 4 2022"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2762"
+device = "iPad14,4"
+product = "iPad14,4"
+fingerprint = ""
+name = "iPad14,4"
+marketname = "iPad Pro 11英寸 4 2022"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

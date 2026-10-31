@@ -1,0 +1,12 @@
+[templates."iPad mini(A17 Pro)"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2996"
+device = "iPad16,2"
+product = "iPad16,2"
+fingerprint = ""
+name = "iPad16,2"
+marketname = "iPad mini(A17 Pro)"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

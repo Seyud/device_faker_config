@@ -1,0 +1,12 @@
+[templates."iPad 8"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2430"
+device = "iPad11,7"
+product = "iPad11,7"
+fingerprint = ""
+name = "iPad11,7"
+marketname = "iPad 8"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

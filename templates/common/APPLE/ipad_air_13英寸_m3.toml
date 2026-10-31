@@ -1,0 +1,12 @@
+[templates."iPad Air 13英寸 M3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3271"
+device = "iPad15,6"
+product = "iPad15,6"
+fingerprint = ""
+name = "iPad15,6"
+marketname = "iPad Air 13英寸 M3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

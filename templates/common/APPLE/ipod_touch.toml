@@ -1,0 +1,10 @@
+[templates."iPod touch"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1213"
+device = "iPod1,1"
+product = "iPod1,1"
+fingerprint = ""
+name = "iPod1,1"
+marketname = "iPod touch"
+author = "GitHub@JokerQi666"

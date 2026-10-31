@@ -1,0 +1,12 @@
+[templates."iPad Pro 9.7英寸 2016"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1675"
+device = "iPad6,4"
+product = "iPad6,4"
+fingerprint = ""
+name = "iPad6,4"
+marketname = "iPad Pro 9.7英寸 2016"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

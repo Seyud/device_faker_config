@@ -1,0 +1,12 @@
+[templates."iPad Pro 11英寸 2 2020"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2231"
+device = "iPad8,10"
+product = "iPad8,10"
+fingerprint = ""
+name = "iPad8,10"
+marketname = "iPad Pro 11英寸 2 2020"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

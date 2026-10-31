@@ -1,0 +1,12 @@
+[templates."iPad (A16)"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3356"
+device = "iPad15,8"
+product = "iPad15,8"
+fingerprint = ""
+name = "iPad15,8"
+marketname = "iPad (A16)"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"

@@ -2,7 +2,1609 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 736
+count = 881
+
+# templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
+[templates."apple_watch_1"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1554"
+device = "Watch1,2"
+product = "Watch1,2"
+fingerprint = ""
+name = "Watch1,2"
+marketname = "Apple Watch 1"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_se.toml · Apple Watch SE
+[templates."apple_watch_se"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2356"
+device = "Watch5,12"
+product = "Watch5,12"
+fingerprint = ""
+name = "Watch5,12"
+marketname = "Apple Watch SE"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_se_2.toml · Apple Watch SE 2
+[templates."apple_watch_se_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2856"
+device = "Watch6,13"
+product = "Watch6,13"
+fingerprint = ""
+name = "Watch6,13"
+marketname = "Apple Watch SE 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_se_3.toml · Apple Watch SE 3
+[templates."apple_watch_se_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3329"
+device = "Watch7,16"
+product = "Watch7,16"
+fingerprint = ""
+name = "Watch7,16"
+marketname = "Apple Watch SE 3"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_1.toml · Apple Watch Series 1
+[templates."apple_watch_series_1"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1803"
+device = "Watch2,7"
+product = "Watch2,7"
+fingerprint = ""
+name = "Watch2,7"
+marketname = "Apple Watch Series 1"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_10.toml · Apple Watch Series 10
+[templates."apple_watch_series_10"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3206"
+device = "Watch7,11"
+product = "Watch7,11"
+fingerprint = ""
+name = "Watch7,11"
+marketname = "Apple Watch Series 10"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_11.toml · Apple Watch Series 11
+[templates."apple_watch_series_11"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3453"
+device = "Watch7,20"
+product = "Watch7,20"
+fingerprint = ""
+name = "Watch7,20"
+marketname = "Apple Watch Series 11"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_12.toml · Apple Watch Series 12
+[templates."apple_watch_series_12"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3588"
+device = "Watch8,5"
+product = "Watch8,5"
+fingerprint = ""
+name = "Watch8,5"
+marketname = "Apple Watch Series 12"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_2.toml · Apple Watch Series 2
+[templates."apple_watch_series_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1817"
+device = "Watch2,4"
+product = "Watch2,4"
+fingerprint = ""
+name = "Watch2,4"
+marketname = "Apple Watch Series 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_3.toml · Apple Watch Series 3
+[templates."apple_watch_series_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1892"
+device = "Watch3,2"
+product = "Watch3,2"
+fingerprint = ""
+name = "Watch3,2"
+marketname = "Apple Watch Series 3"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_4.toml · Apple Watch Series 4
+[templates."apple_watch_series_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2008"
+device = "Watch4,4"
+product = "Watch4,4"
+fingerprint = ""
+name = "Watch4,4"
+marketname = "Apple Watch Series 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_5.toml · Apple Watch Series 5
+[templates."apple_watch_series_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2157"
+device = "Watch5,4"
+product = "Watch5,4"
+fingerprint = ""
+name = "Watch5,4"
+marketname = "Apple Watch Series 5"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_6.toml · Apple Watch Series 6
+[templates."apple_watch_series_6"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2376"
+device = "Watch6,4"
+product = "Watch6,4"
+fingerprint = ""
+name = "Watch6,4"
+marketname = "Apple Watch Series 6"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_7.toml · Apple Watch Series 7
+[templates."apple_watch_series_7"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2478"
+device = "Watch6,9"
+product = "Watch6,9"
+fingerprint = ""
+name = "Watch6,9"
+marketname = "Apple Watch Series 7"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_8.toml · Apple Watch Series 8
+[templates."apple_watch_series_8"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2858"
+device = "Watch6,17"
+product = "Watch6,17"
+fingerprint = ""
+name = "Watch6,17"
+marketname = "Apple Watch Series 8"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_series_9.toml · Apple Watch Series 9
+[templates."apple_watch_series_9"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2985"
+device = "Watch7,4"
+product = "Watch7,4"
+fingerprint = ""
+name = "Watch7,4"
+marketname = "Apple Watch Series 9"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_ultra.toml · Apple Watch Ultra
+[templates."apple_watch_ultra"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2859"
+device = "Watch6,18"
+product = "Watch6,18"
+fingerprint = ""
+name = "Watch6,18"
+marketname = "Apple Watch Ultra"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_ultra_2.toml · Apple Watch Ultra 2
+[templates."apple_watch_ultra_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2987"
+device = "Watch7,5"
+product = "Watch7,5"
+fingerprint = ""
+name = "Watch7,5"
+marketname = "Apple Watch Ultra 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_ultra_3.toml · Apple Watch Ultra 3
+[templates."apple_watch_ultra_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3282"
+device = "Watch7,12"
+product = "Watch7,12"
+fingerprint = ""
+name = "Watch7,12"
+marketname = "Apple Watch Ultra 3"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/apple_watch_ultra_4.toml · Apple Watch Ultra 4
+[templates."apple_watch_ultra_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3580"
+device = "Watch8,1"
+product = "Watch8,1"
+fingerprint = ""
+name = "Watch8,1"
+marketname = "Apple Watch Ultra 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad.toml · iPad
+[templates."ipad"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1337"
+device = "iPad1,1"
+product = "iPad1,1"
+fingerprint = ""
+name = "iPad1,1"
+marketname = "iPad"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_10.toml · iPad 10
+[templates."ipad_10"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3162"
+device = "iPad13,19"
+product = "iPad13,19"
+fingerprint = ""
+name = "iPad13,19"
+marketname = "iPad 10"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_2.toml · iPad 2
+[templates."ipad_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1397"
+device = "iPad2,3"
+product = "iPad2,3"
+fingerprint = ""
+name = "iPad2,3"
+marketname = "iPad 2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_3.toml · iPad 3
+[templates."ipad_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1430"
+device = "iPad3,3"
+product = "iPad3,3"
+fingerprint = ""
+name = "iPad3,3"
+marketname = "iPad 3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_4.toml · iPad 4
+[templates."ipad_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1460"
+device = "iPad3,6"
+product = "iPad3,6"
+fingerprint = ""
+name = "iPad3,6"
+marketname = "iPad 4"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_5.toml · iPad 5
+[templates."ipad_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1823"
+device = "iPad6,12"
+product = "iPad6,12"
+fingerprint = ""
+name = "iPad6,12"
+marketname = "iPad 5"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_6.toml · iPad 6
+[templates."ipad_6"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1954"
+device = "iPad7,6"
+product = "iPad7,6"
+fingerprint = ""
+name = "iPad7,6"
+marketname = "iPad 6"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_7.toml · iPad 7
+[templates."ipad_7"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2199"
+device = "iPad7,12"
+product = "iPad7,12"
+fingerprint = ""
+name = "iPad7,12"
+marketname = "iPad 7"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_8.toml · iPad 8
+[templates."ipad_8"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2430"
+device = "iPad11,7"
+product = "iPad11,7"
+fingerprint = ""
+name = "iPad11,7"
+marketname = "iPad 8"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_9.toml · iPad 9
+[templates."ipad_9"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2605"
+device = "iPad12,2"
+product = "iPad12,2"
+fingerprint = ""
+name = "iPad12,2"
+marketname = "iPad 9"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_a16.toml · iPad (A16)
+[templates."ipad_a16"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3356"
+device = "iPad15,8"
+product = "iPad15,8"
+fingerprint = ""
+name = "iPad15,8"
+marketname = "iPad (A16)"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air.toml · iPad Air
+[templates."ipad_air"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1475"
+device = "iPad4,2"
+product = "iPad4,2"
+fingerprint = ""
+name = "iPad4,2"
+marketname = "iPad Air"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_11英寸_m2.toml · iPad Air 11英寸 M2
+[templates."ipad_air_11英寸_m2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2904"
+device = "iPad14,9"
+product = "iPad14,9"
+fingerprint = ""
+name = "iPad14,9"
+marketname = "iPad Air 11英寸 M2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_11英寸_m3.toml · iPad Air 11英寸 M3
+[templates."ipad_air_11英寸_m3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3270"
+device = "iPad15,4"
+product = "iPad15,4"
+fingerprint = ""
+name = "iPad15,4"
+marketname = "iPad Air 11英寸 M3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_11英寸_m4.toml · iPad Air 11英寸 M4
+[templates."ipad_air_11英寸_m4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3463"
+device = "iPad16,9"
+product = "iPad16,9"
+fingerprint = ""
+name = "iPad16,9"
+marketname = "iPad Air 11英寸 M4"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_13英寸_m2.toml · iPad Air 13英寸 M2
+[templates."ipad_air_13英寸_m2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2900"
+device = "iPad14,11"
+product = "iPad14,11"
+fingerprint = ""
+name = "iPad14,11"
+marketname = "iPad Air 13英寸 M2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_13英寸_m3.toml · iPad Air 13英寸 M3
+[templates."ipad_air_13英寸_m3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3271"
+device = "iPad15,6"
+product = "iPad15,6"
+fingerprint = ""
+name = "iPad15,6"
+marketname = "iPad Air 13英寸 M3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_13英寸_m4.toml · iPad Air 13英寸 M4
+[templates."ipad_air_13英寸_m4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3464"
+device = "iPad16,11"
+product = "iPad16,11"
+fingerprint = ""
+name = "iPad16,11"
+marketname = "iPad Air 13英寸 M4"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_2.toml · iPad Air 2
+[templates."ipad_air_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1567"
+device = "iPad5,4"
+product = "iPad5,4"
+fingerprint = ""
+name = "iPad5,4"
+marketname = "iPad Air 2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_3.toml · iPad Air 3
+[templates."ipad_air_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2154"
+device = "iPad11,4"
+product = "iPad11,4"
+fingerprint = ""
+name = "iPad11,4"
+marketname = "iPad Air 3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_4.toml · iPad Air 4
+[templates."ipad_air_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2325"
+device = "iPad13,2"
+product = "iPad13,2"
+fingerprint = ""
+name = "iPad13,2"
+marketname = "iPad Air 4"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_air_5.toml · iPad Air 5
+[templates."ipad_air_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2591"
+device = "iPad13,17"
+product = "iPad13,17"
+fingerprint = ""
+name = "iPad13,17"
+marketname = "iPad Air 5"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini.toml · iPad mini
+[templates."ipad_mini"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1455"
+device = "iPad2,7"
+product = "iPad2,7"
+fingerprint = ""
+name = "iPad2,7"
+marketname = "iPad mini"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_2.toml · iPad mini 2
+[templates."ipad_mini_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1490"
+device = "iPad4,5"
+product = "iPad4,5"
+fingerprint = ""
+name = "iPad4,5"
+marketname = "iPad mini 2"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_3.toml · iPad mini 3
+[templates."ipad_mini_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1600"
+device = "iPad4,8"
+product = "iPad4,8"
+fingerprint = ""
+name = "iPad4,8"
+marketname = "iPad mini 3"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_4.toml · iPad mini 4
+[templates."ipad_mini_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1550"
+device = "iPad5,2"
+product = "iPad5,2"
+fingerprint = ""
+name = "iPad5,2"
+marketname = "iPad mini 4"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_5.toml · iPad mini 5
+[templates."ipad_mini_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2125"
+device = "iPad11,2"
+product = "iPad11,2"
+fingerprint = ""
+name = "iPad11,2"
+marketname = "iPad mini 5"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_6.toml · iPad mini 6
+[templates."ipad_mini_6"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2569"
+device = "iPad14,2"
+product = "iPad14,2"
+fingerprint = ""
+name = "iPad14,2"
+marketname = "iPad mini 6"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_mini_a17_pro.toml · iPad mini(A17 Pro)
+[templates."ipad_mini_a17_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2996"
+device = "iPad16,2"
+product = "iPad16,2"
+fingerprint = ""
+name = "iPad16,2"
+marketname = "iPad mini(A17 Pro)"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_10.5英寸_2017.toml · iPad Pro 10.5英寸 2017
+[templates."ipad_pro_10.5英寸_2017"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1852"
+device = "iPad7,4"
+product = "iPad7,4"
+fingerprint = ""
+name = "iPad7,4"
+marketname = "iPad Pro 10.5英寸 2017"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_2018.toml · iPad Pro 11英寸 2018
+[templates."ipad_pro_11英寸_2018"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1979"
+device = "iPad8,4"
+product = "iPad8,4"
+fingerprint = ""
+name = "iPad8,4"
+marketname = "iPad Pro 11英寸 2018"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_2_2020.toml · iPad Pro 11英寸 2 2020
+[templates."ipad_pro_11英寸_2_2020"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2231"
+device = "iPad8,10"
+product = "iPad8,10"
+fingerprint = ""
+name = "iPad8,10"
+marketname = "iPad Pro 11英寸 2 2020"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_3_2021.toml · iPad Pro 11英寸 3 2021
+[templates."ipad_pro_11英寸_3_2021"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2460"
+device = "iPad13,7"
+product = "iPad13,7"
+fingerprint = ""
+name = "iPad13,7"
+marketname = "iPad Pro 11英寸 3 2021"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_4_2022.toml · iPad Pro 11英寸 4 2022
+[templates."ipad_pro_11英寸_4_2022"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2762"
+device = "iPad14,4"
+product = "iPad14,4"
+fingerprint = ""
+name = "iPad14,4"
+marketname = "iPad Pro 11英寸 4 2022"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_m4_2024.toml · iPad Pro 11英寸 M4 2024
+[templates."ipad_pro_11英寸_m4_2024"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3006"
+device = "iPad16,4"
+product = "iPad16,4"
+fingerprint = ""
+name = "iPad16,4"
+marketname = "iPad Pro 11英寸 M4 2024"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_11英寸_m5_2025.toml · iPad Pro 11英寸 M5 2025
+[templates."ipad_pro_11英寸_m5_2025"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3359"
+device = "iPad17,2"
+product = "iPad17,2"
+fingerprint = ""
+name = "iPad17,2"
+marketname = "iPad Pro 11英寸 M5 2025"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_2015.toml · iPad Pro 12.9英寸 2015
+[templates."ipad_pro_12.9英寸_2015"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1652"
+device = "iPad6,8"
+product = "iPad6,8"
+fingerprint = ""
+name = "iPad6,8"
+marketname = "iPad Pro 12.9英寸 2015"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_2_2017.toml · iPad Pro 12.9英寸 2 2017
+[templates."ipad_pro_12.9英寸_2_2017"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1821"
+device = "iPad7,2"
+product = "iPad7,2"
+fingerprint = ""
+name = "iPad7,2"
+marketname = "iPad Pro 12.9英寸 2 2017"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_3_2018.toml · iPad Pro 12.9英寸 3 2018
+[templates."ipad_pro_12.9英寸_3_2018"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1983"
+device = "iPad8,8"
+product = "iPad8,8"
+fingerprint = ""
+name = "iPad8,8"
+marketname = "iPad Pro 12.9英寸 3 2018"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_4_2020.toml · iPad Pro 12.9英寸 4 2020
+[templates."ipad_pro_12.9英寸_4_2020"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2233"
+device = "iPad8,12"
+product = "iPad8,12"
+fingerprint = ""
+name = "iPad8,12"
+marketname = "iPad Pro 12.9英寸 4 2020"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_5_2021.toml · iPad Pro 12.9英寸 5 2021
+[templates."ipad_pro_12.9英寸_5_2021"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2462"
+device = "iPad13,11"
+product = "iPad13,11"
+fingerprint = ""
+name = "iPad13,11"
+marketname = "iPad Pro 12.9英寸 5 2021"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_12.9英寸_6_2022.toml · iPad Pro 12.9英寸 6 2022
+[templates."ipad_pro_12.9英寸_6_2022"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2766"
+device = "iPad14,6"
+product = "iPad14,6"
+fingerprint = ""
+name = "iPad14,6"
+marketname = "iPad Pro 12.9英寸 6 2022"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_13英寸_m4_2024.toml · iPad Pro 13英寸 M4 2024
+[templates."ipad_pro_13英寸_m4_2024"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3007"
+device = "iPad16,6"
+product = "iPad16,6"
+fingerprint = ""
+name = "iPad16,6"
+marketname = "iPad Pro 13英寸 M4 2024"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_13英寸_m5_2025.toml · iPad Pro 13英寸 M5 2025
+[templates."ipad_pro_13英寸_m5_2025"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3362"
+device = "iPad18,2"
+product = "iPad18,2"
+fingerprint = ""
+name = "iPad18,2"
+marketname = "iPad Pro 13英寸 M5 2025"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipad_pro_9.7英寸_2016.toml · iPad Pro 9.7英寸 2016
+[templates."ipad_pro_9.7英寸_2016"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1675"
+device = "iPad6,4"
+product = "iPad6,4"
+fingerprint = ""
+name = "iPad6,4"
+marketname = "iPad Pro 9.7英寸 2016"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_11.toml · iPhone 11
+[templates."iphone_11"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2223"
+device = "iPhone12,1"
+product = "iPhone12,1"
+fingerprint = ""
+name = "iPhone12,1"
+marketname = "iPhone 11"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_11_pro.toml · iPhone 11 Pro
+[templates."iphone_11_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2217"
+device = "iPhone12,3"
+product = "iPhone12,3"
+fingerprint = ""
+name = "iPhone12,3"
+marketname = "iPhone 11 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_11_pro_max.toml · iPhone 11 Pro Max
+[templates."iphone_11_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2220"
+device = "iPhone12,5"
+product = "iPhone12,5"
+fingerprint = ""
+name = "iPhone12,5"
+marketname = "iPhone 11 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_12.toml · iPhone 12
+[templates."iphone_12"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2404"
+device = "iPhone13,2"
+product = "iPhone13,2"
+fingerprint = ""
+name = "iPhone13,2"
+marketname = "iPhone 12"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_12_mini.toml · iPhone 12 mini
+[templates."iphone_12_mini"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2400"
+device = "iPhone13,1"
+product = "iPhone13,1"
+fingerprint = ""
+name = "iPhone13,1"
+marketname = "iPhone 12 mini"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_12_pro.toml · iPhone 12 Pro
+[templates."iphone_12_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2408"
+device = "iPhone13,3"
+product = "iPhone13,3"
+fingerprint = ""
+name = "iPhone13,3"
+marketname = "iPhone 12 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_12_pro_max.toml · iPhone 12 Pro Max
+[templates."iphone_12_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2412"
+device = "iPhone13,4"
+product = "iPhone13,4"
+fingerprint = ""
+name = "iPhone13,4"
+marketname = "iPhone 12 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_13.toml · iPhone 13
+[templates."iphone_13"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2634"
+device = "iPhone14,5"
+product = "iPhone14,5"
+fingerprint = ""
+name = "iPhone14,5"
+marketname = "iPhone 13"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_13_mini.toml · iPhone 13 mini
+[templates."iphone_13_mini"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2629"
+device = "iPhone14,4"
+product = "iPhone14,4"
+fingerprint = ""
+name = "iPhone14,4"
+marketname = "iPhone 13 mini"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_13_pro.toml · iPhone 13 Pro
+[templates."iphone_13_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2639"
+device = "iPhone14,2"
+product = "iPhone14,2"
+fingerprint = ""
+name = "iPhone14,2"
+marketname = "iPhone 13 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_13_pro_max.toml · iPhone 13 Pro Max
+[templates."iphone_13_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2644"
+device = "iPhone14,3"
+product = "iPhone14,3"
+fingerprint = ""
+name = "iPhone14,3"
+marketname = "iPhone 13 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_14.toml · iPhone 14
+[templates."iphone_14"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2884"
+device = "iPhone14,7"
+product = "iPhone14,7"
+fingerprint = ""
+name = "iPhone14,7"
+marketname = "iPhone 14"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_14_plus.toml · iPhone 14 Plus
+[templates."iphone_14_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2888"
+device = "iPhone14,8"
+product = "iPhone14,8"
+fingerprint = ""
+name = "iPhone14,8"
+marketname = "iPhone 14 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_14_pro.toml · iPhone 14 Pro
+[templates."iphone_14_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2892"
+device = "iPhone15,2"
+product = "iPhone15,2"
+fingerprint = ""
+name = "iPhone15,2"
+marketname = "iPhone 14 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_14_pro_max.toml · iPhone 14 Pro Max
+[templates."iphone_14_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2896"
+device = "iPhone15,3"
+product = "iPhone15,3"
+fingerprint = ""
+name = "iPhone15,3"
+marketname = "iPhone 14 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_15.toml · iPhone 15
+[templates."iphone_15"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3092"
+device = "iPhone15,4"
+product = "iPhone15,4"
+fingerprint = ""
+name = "iPhone15,4"
+marketname = "iPhone 15"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_15_plus.toml · iPhone 15 Plus
+[templates."iphone_15_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3096"
+device = "iPhone15,5"
+product = "iPhone15,5"
+fingerprint = ""
+name = "iPhone15,5"
+marketname = "iPhone 15 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_15_pro.toml · iPhone 15 Pro
+[templates."iphone_15_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3104"
+device = "iPhone16,1"
+product = "iPhone16,1"
+fingerprint = ""
+name = "iPhone16,1"
+marketname = "iPhone 15 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_15_pro_max.toml · iPhone 15 Pro Max
+[templates."iphone_15_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3108"
+device = "iPhone16,2"
+product = "iPhone16,2"
+fingerprint = ""
+name = "iPhone16,2"
+marketname = "iPhone 15 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_16.toml · iPhone 16
+[templates."iphone_16"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3288"
+device = "iPhone17,3"
+product = "iPhone17,3"
+fingerprint = ""
+name = "iPhone17,3"
+marketname = "iPhone 16"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_16_plus.toml · iPhone 16 Plus
+[templates."iphone_16_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3291"
+device = "iPhone17,4"
+product = "iPhone17,4"
+fingerprint = ""
+name = "iPhone17,4"
+marketname = "iPhone 16 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_16_pro.toml · iPhone 16 Pro
+[templates."iphone_16_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3294"
+device = "iPhone17,1"
+product = "iPhone17,1"
+fingerprint = ""
+name = "iPhone17,1"
+marketname = "iPhone 16 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_16_pro_max.toml · iPhone 16 Pro Max
+[templates."iphone_16_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3297"
+device = "iPhone17,2"
+product = "iPhone17,2"
+fingerprint = ""
+name = "iPhone17,2"
+marketname = "iPhone 16 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_16e.toml · iPhone 16e
+[templates."iphone_16e"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3410"
+device = "iPhone17,5"
+product = "iPhone17,5"
+fingerprint = ""
+name = "iPhone17,5"
+marketname = "iPhone 16e"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_17.toml · iPhone 17
+[templates."iphone_17"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3521"
+device = "iPhone18,3"
+product = "iPhone18,3"
+fingerprint = ""
+name = "iPhone18,3"
+marketname = "iPhone 17"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_17_pro.toml · iPhone 17 Pro
+[templates."iphone_17_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3524"
+device = "iPhone18,1"
+product = "iPhone18,1"
+fingerprint = ""
+name = "iPhone18,1"
+marketname = "iPhone 17 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_17_pro_max.toml · iPhone 17 Pro Max
+[templates."iphone_17_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3527"
+device = "iPhone18,2"
+product = "iPhone18,2"
+fingerprint = ""
+name = "iPhone18,2"
+marketname = "iPhone 17 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_17e.toml · iPhone 17e
+[templates."iphone_17e"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3635"
+device = "iPhone18,5"
+product = "iPhone18,5"
+fingerprint = ""
+name = "iPhone18,5"
+marketname = "iPhone 17e"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_18_pro.toml · iPhone 18 Pro
+[templates."iphone_18_pro"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3715"
+device = "iPhone19,2"
+product = "iPhone19,2"
+fingerprint = ""
+name = "iPhone19,2"
+marketname = "iPhone 18 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_18_pro_max.toml · iPhone 18 Pro Max
+[templates."iphone_18_pro_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3718"
+device = "iPhone19,7"
+product = "iPhone19,7"
+fingerprint = ""
+name = "iPhone19,7"
+marketname = "iPhone 18 Pro Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_3g.toml · iPhone 3G
+[templates."iphone_3g"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1324"
+device = "iPhone1,2"
+product = "iPhone1,2"
+fingerprint = ""
+name = "iPhone1,2"
+marketname = "iPhone 3G"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_3gs.toml · iPhone 3G
+[templates."iphone_3gs"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1324"
+device = "iPhone1,2"
+product = "iPhone1,2"
+fingerprint = ""
+name = "iPhone1,2"
+marketname = "iPhone 3G"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_4.toml · iPhone 4
+[templates."iphone_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1332"
+device = "iPhone3,2"
+product = "iPhone3,2"
+fingerprint = ""
+name = "iPhone3,2"
+marketname = "iPhone 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_4s.toml · iPhone 4S
+[templates."iphone_4s"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1387"
+device = "iPhone4,1"
+product = "iPhone4,1"
+fingerprint = ""
+name = "iPhone4,1"
+marketname = "iPhone 4S"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_5.toml · iPhone 5
+[templates."iphone_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1442"
+device = "iPhone5,2"
+product = "iPhone5,2"
+fingerprint = ""
+name = "iPhone5,2"
+marketname = "iPhone 5"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_5c.toml · iPhone 5c
+[templates."iphone_5c"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1532"
+device = "iPhone5,3"
+product = "iPhone5,3"
+fingerprint = ""
+name = "iPhone5,3"
+marketname = "iPhone 5c"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_5s.toml · iPhone 5s
+[templates."iphone_5s"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1533"
+device = "iPhone6,1"
+product = "iPhone6,1"
+fingerprint = ""
+name = "iPhone6,1"
+marketname = "iPhone 5s"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_6.toml · iPhone 6
+[templates."iphone_6"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1586"
+device = "iPhone7,2"
+product = "iPhone7,2"
+fingerprint = ""
+name = "iPhone7,2"
+marketname = "iPhone 6"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_6_plus.toml · iPhone 6 Plus
+[templates."iphone_6_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1524"
+device = "iPhone7,1"
+product = "iPhone7,1"
+fingerprint = ""
+name = "iPhone7,1"
+marketname = "iPhone 6 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_6s.toml · iPhone 6s
+[templates."iphone_6s"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1700"
+device = "iPhone8,1"
+product = "iPhone8,1"
+fingerprint = ""
+name = "iPhone8,1"
+marketname = "iPhone 6s"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_6s_plus.toml · iPhone 6s Plus
+[templates."iphone_6s_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1699"
+device = "iPhone8,2"
+product = "iPhone8,2"
+fingerprint = ""
+name = "iPhone8,2"
+marketname = "iPhone 6s Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_7.toml · iPhone 7
+[templates."iphone_7"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1660"
+device = "iPhone9,1"
+product = "iPhone9,1"
+fingerprint = ""
+name = "iPhone9,1"
+marketname = "iPhone 7"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_7_plus.toml · iPhone 7 Plus
+[templates."iphone_7_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1661"
+device = "iPhone9,2"
+product = "iPhone9,2"
+fingerprint = ""
+name = "iPhone9,2"
+marketname = "iPhone 7 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_8.toml · iPhone 8
+[templates."iphone_8"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1863"
+device = "iPhone10,1"
+product = "iPhone10,1"
+fingerprint = ""
+name = "iPhone10,1"
+marketname = "iPhone 8"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_8_plus.toml · iPhone 8 Plus
+[templates."iphone_8_plus"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1864"
+device = "iPhone10,2"
+product = "iPhone10,2"
+fingerprint = ""
+name = "iPhone10,2"
+marketname = "iPhone 8 Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_air.toml · iPhone Air
+[templates."iphone_air"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3518"
+device = "iPhone18,4"
+product = "iPhone18,4"
+fingerprint = ""
+name = "iPhone18,4"
+marketname = "iPhone Air"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_duo.toml · iPhone Duo
+[templates."iphone_duo"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A3721"
+device = "iPhone19,4"
+product = "iPhone19,4"
+fingerprint = ""
+name = "iPhone19,4"
+marketname = "iPhone Duo"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_se.toml · iPhone SE
+[templates."iphone_se"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1723"
+device = "iPhone8,4"
+product = "iPhone8,4"
+fingerprint = ""
+name = "iPhone8,4"
+marketname = "iPhone SE"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_se_2.toml · iPhone SE (第 2 代)
+[templates."iphone_se_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2298"
+device = "iPhone12,8"
+product = "iPhone12,8"
+fingerprint = ""
+name = "iPhone12,8"
+marketname = "iPhone SE (第 2 代)"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_se_3.toml · iPhone SE (第 3 代)
+[templates."iphone_se_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2785"
+device = "iPhone14,6"
+product = "iPhone14,6"
+fingerprint = ""
+name = "iPhone14,6"
+marketname = "iPhone SE (第 3 代)"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_x.toml · iPhone X
+[templates."iphone_x"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1865"
+device = "iPhone10,3"
+product = "iPhone10,3"
+fingerprint = ""
+name = "iPhone10,3"
+marketname = "iPhone X"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_xr.toml · iPhone XR
+[templates."iphone_xr"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2108"
+device = "iPhone11,8"
+product = "iPhone11,8"
+fingerprint = ""
+name = "iPhone11,8"
+marketname = "iPhone XR"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_xs.toml · iPhone XS
+[templates."iphone_xs"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2100"
+device = "iPhone11,2"
+product = "iPhone11,2"
+fingerprint = ""
+name = "iPhone11,2"
+marketname = "iPhone XS"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/iphone_xs_max.toml · iPhone XS Max
+[templates."iphone_xs_max"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2104"
+device = "iPhone11,6"
+product = "iPhone11,6"
+fingerprint = ""
+name = "iPhone11,6"
+marketname = "iPhone XS Max"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch.toml · iPod touch
+[templates."ipod_touch"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1213"
+device = "iPod1,1"
+product = "iPod1,1"
+fingerprint = ""
+name = "iPod1,1"
+marketname = "iPod touch"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_2.toml · iPod touch 2
+[templates."ipod_touch_2"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1319"
+device = "iPod2,1"
+product = "iPod2,1"
+fingerprint = ""
+name = "iPod2,1"
+marketname = "iPod touch 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_3.toml · iPod touch 3
+[templates."ipod_touch_3"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1318"
+device = "iPod3,1"
+product = "iPod3,1"
+fingerprint = ""
+name = "iPod3,1"
+marketname = "iPod touch 3"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_4.toml · iPod touch 4
+[templates."ipod_touch_4"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1367"
+device = "iPod4,1"
+product = "iPod4,1"
+fingerprint = ""
+name = "iPod4,1"
+marketname = "iPod touch 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_5.toml · iPod touch 5
+[templates."ipod_touch_5"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1509"
+device = "iPod5,1"
+product = "iPod5,1"
+fingerprint = ""
+name = "iPod5,1"
+marketname = "iPod touch 5"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_6.toml · iPod touch 6
+[templates."ipod_touch_6"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A1574"
+device = "iPod7,1"
+product = "iPod7,1"
+fingerprint = ""
+name = "iPod7,1"
+marketname = "iPod touch 6"
+author = "GitHub@JokerQi666"
+
+# templates/common/APPLE/ipod_touch_7.toml · iPod touch 7
+[templates."ipod_touch_7"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2178"
+device = "iPod9,1"
+product = "iPod9,1"
+fingerprint = ""
+name = "iPod9,1"
+marketname = "iPod touch 7"
+author = "GitHub@JokerQi666"
 
 # templates/common/HONOR/homor_robot_phone.toml · HONOR Robot Phone
 [templates."homor_robot_phone"]
@@ -3005,6 +4607,18 @@ author = "GitHub@JokerQi666"
  marketname = "HUAWEI Pura 90"
  author = "GitHub@JokerQi666"
 
+# templates/common/HUAWEI/huawei_pura_90_plus.toml · HUAWEI Pura 90 Plus
+[templates."huawei_pura_90_plus"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "LCI-AL00"
+device = "Lucia"
+product = "Lucia"
+fingerprint = ""
+name = "Lucia"
+marketname = "HUAWEI Pura 90 Plus"
+author = "GitHub@JokerQi666"
+
 # templates/common/HUAWEI/huawei_pura_90_pro.toml · HUAWEI Pura 90 Pro
 [templates."huawei_pura_90_pro"]
  manufacturer = "HUAWEI"
@@ -3064,6 +4678,114 @@ author = "GitHub@JokerQi666"
  name = "Volcano"
  marketname = "HUAWEI Pura X View"
  author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_2.toml · HUAWEI WATCH 2
+[templates."huawei_watch_2"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "Leo-L09S"
+device = "Leo"
+product = "Leo"
+fingerprint = ""
+name = "Leo"
+marketname = "HUAWEI WATCH 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_2_pro.toml · HUAWEI WATCH 2 Pro
+[templates."huawei_watch_2_pro"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "Leo-L19E"
+device = "Leo"
+product = "Leo"
+fingerprint = ""
+name = "Leo"
+marketname = "HUAWEI WATCH 2 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_3.toml · HUAWEI WATCH 3
+[templates."huawei_watch_3"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "GLL-AL30"
+device = "Galileo"
+product = "Galileo"
+fingerprint = ""
+name = "Galileo"
+marketname = "HUAWEI WATCH 3"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_3_pro.toml · HUAWEI WATCH 3 Pro
+[templates."huawei_watch_3_pro"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "GLL-AL01"
+device = "GalileoPro"
+product = "GalileoPro"
+fingerprint = ""
+name = "GalileoPro"
+marketname = "HUAWEI WATCH 3 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_3_pro_new.toml · HUAWEI WATCH 3 Pro New
+[templates."huawei_watch_3_pro_new"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "GLL-AL09"
+device = "GalileoPro"
+product = "GalileoPro"
+fingerprint = ""
+name = "GalileoPro"
+marketname = "HUAWEI WATCH 3 Pro New"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_4.toml · HUAWEI WATCH 4
+[templates."huawei_watch_4"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "ARC-AL00"
+device = "Archi"
+product = "Archi"
+fingerprint = ""
+name = "Archi"
+marketname = "HUAWEI WATCH 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_4_pro.toml · HUAWEI WATCH 4 Pro
+[templates."huawei_watch_4_pro"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "MDS-AL10"
+device = "Medes"
+product = "Medes"
+fingerprint = ""
+name = "Medes"
+marketname = "HUAWEI WATCH 4 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_5.toml · HUAWEI WATCH 5
+[templates."huawei_watch_5"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "SOC-AL00"
+device = "Socrates"
+product = "Socrates"
+fingerprint = ""
+name = "Socrates"
+marketname = "HUAWEI WATCH 5"
+author = "GitHub@JokerQi666"
+
+# templates/common/HUAWEI/huawei_watch_ultimate.toml · HUAWEI WATCH Ultimate
+[templates."huawei_watch_ultimate"]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "WDS-B19"
+device = "Woods"
+product = "Woods"
+fingerprint = ""
+name = "Woods"
+marketname = "HUAWEI WATCH Ultimate"
+author = "GitHub@JokerQi666"
 
 # templates/common/IQOO/iqoo.toml · iQOO
 [templates."iqoo"]
@@ -4993,6 +6715,90 @@ product = "linhai"
 fingerprint = ""
 name = "linhai"
 marketname = "OPPO Reno 9 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_2.toml · OPPO Watch 2
+[templates."oppo_watch_2"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OW20W3"
+device = "maxwell"
+product = "maxwell"
+fingerprint = ""
+name = "maxwell"
+marketname = "OPPO Watch 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_3_pro.toml · OPPO Watch 3 Pro
+[templates."oppo_watch_3_pro"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW211"
+device = "oersted"
+product = "oersted"
+fingerprint = ""
+name = "oersted"
+marketname = "OPPO Watch 3 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_4_pro.toml · OPPO Watch 4 Pro
+[templates."oppo_watch_4_pro"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW221"
+device = "comet"
+product = "comet"
+fingerprint = ""
+name = "comet"
+marketname = "OPPO Watch 4 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_x.toml · OPPO Watch X
+[templates."oppo_watch_x"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW231"
+device = "star"
+product = "star"
+fingerprint = ""
+name = "star"
+marketname = "OPPO Watch X"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_x2.toml · OPPO Watch X2
+[templates."oppo_watch_x2"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW251"
+device = "starriver"
+product = "starriver"
+fingerprint = ""
+name = "starriver"
+marketname = "OPPO Watch X2"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_x2_mini.toml · OPPO Watch X2 Mini
+[templates."oppo_watch_x2_mini"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW242"
+device = "xingchen"
+product = "xingchen"
+fingerprint = ""
+name = "xingchen"
+marketname = "OPPO Watch X2 Mini"
+author = "GitHub@JokerQi666"
+
+# templates/common/OPPO/oppo_watch_x3.toml · OPPO Watch X3
+[templates."oppo_watch_x3"]
+manufacturer = "OPPO"
+brand = "OPPO"
+model = "OWW261"
+device = "taycan"
+product = "taycan"
+fingerprint = ""
+name = "taycan"
+marketname = "OPPO Watch X3"
 author = "GitHub@JokerQi666"
 
 # templates/common/OnePlus/oneplus.toml · OnePlus
@@ -8905,29 +10711,53 @@ characteristics = "tablet"
 force_denylist_unmount = true
 author = "GitHub@JokerQi666"
 
-# templates/common/iPhone/iphone_16_pro_max.toml · iPhone 16 Pro Max
-[templates."iphone_16_pro_max"]
-manufacturer = "Apple"
-brand = "Apple"
-model = "iPhone 16 Pro Max"
-device = "A3297"
-product = "A3297"
+# templates/common/Xiaomi/xiaomi_watch.toml · Xiaomi Watch
+[templates."xiaomi_watch"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "XMWT01"
+device = "baiji"
+product = "baiji"
 fingerprint = ""
-name = "A3297"
-marketname = "iPhone 16 Pro Max"
-author = "GitHub@anorin527"
+name = "baiji"
+marketname = "Xiaomi Watch"
+author = "GitHub@JokerQi666"
 
-# templates/common/iPhone/iphone_17_pro_max.toml · iPhone 17 Pro Max
-[templates."iphone_17_pro_max"]
-manufacturer = "Apple"
-brand = "Apple"
-model = "iPhone 17 Pro Max"
-device = "A3527"
-product = "A3527"
+# templates/common/Xiaomi/xiaomi_watch_2.toml · Xiaomi Watch 2
+[templates."xiaomi_watch_2"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M2320W1"
+device = "axolotlaxie"
+product = "axolotlaxie"
 fingerprint = ""
-name = "A3527"
-marketname = "iPhone 17 Pro Max"
-author = "GitHub@anorin527"
+name = "axolotlaxie"
+marketname = "Xiaomi Watch 2"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_watch_2_pro.toml · Xiaomi Watch 2 Pro
+[templates."xiaomi_watch_2_pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M2233W1"
+device = "axolotlte"
+product = "axolotlte"
+fingerprint = ""
+name = "axolotlte"
+marketname = "Xiaomi Watch 2 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_watch_5.toml · Xiaomi Watch 5
+[templates."xiaomi_watch_5"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M2505W1"
+device = "grasslte"
+product = "grasslte"
+fingerprint = ""
+name = "grasslte"
+marketname = "Xiaomi Watch 5"
+author = "GitHub@JokerQi666"
 
 # templates/gaming/IQOO/iqoo_12_pro.toml · IQOO_12_Pro
 [templates."iqoo_12_pro"]

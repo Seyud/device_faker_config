@@ -1,0 +1,12 @@
+[templates."iPad Pro 11英寸 3 2021"]
+manufacturer = "Apple"
+brand = "Apple"
+model = "A2460"
+device = "iPad13,7"
+product = "iPad13,7"
+fingerprint = ""
+name = "iPad13,7"
+marketname = "iPad Pro 11英寸 3 2021"
+characteristics = "tablet"
+force_denylist_unmount = true
+author = "GitHub@JokerQi666"
