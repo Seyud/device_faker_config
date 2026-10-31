@@ -20,13 +20,13 @@ jobs:
     
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           # 需要 base 提交才能做「仅本次新增文件」的命名比对
           fetch-depth: 0
         
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: '3.11'
           
