@@ -2,7 +2,7 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 882
+count = 883
 
 # templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
 [templates."apple_watch_1"]
@@ -7267,6 +7267,18 @@ product = "macan"
 fingerprint = ""
 name = "macan"
 marketname = "OnePlus Ace 6T"
+author = "GitHub@JokerQi666"
+
+# templates/common/OnePlus/oneplus_ace_7.toml · OnePlus Ace 7
+[templates."oneplus_ace_7"]
+manufacturer = "OnePlus"
+brand = "OnePlus"
+model = "PYF110"
+device = "mario"
+product = "mario"
+fingerprint = ""
+name = "mario"
+marketname = "OnePlus Ace 7"
 author = "GitHub@JokerQi666"
 
 # templates/common/OnePlus/oneplus_ace_7_pro.toml · OnePlus Ace 7 Pro
