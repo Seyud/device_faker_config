@@ -1,0 +1,10 @@
+[templates."HUAWEI MatePad Pro (平板模式)"]
+packages = [ "com.xunmeng.pinduoduo", "com.tencent.wework" ]
+manufacturer = "HUAWEI"
+brand = "HUAWEI"
+model = "HUAWEI MatePad Pro"
+marketname = "HUAWEI MatePad Pro"
+characteristics = "tablet,nosdcard"
+force_denylist_unmount = true
+author = "GitHub@Seyud"
+description = "拼多多 / 企业微信 平板模式"
