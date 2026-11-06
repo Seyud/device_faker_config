@@ -8436,7 +8436,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_8.toml · Redmi Note 8
 [templates."redmi_note_8"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "M1908C3JE"
  device = "ginkgo"
  product = "ginkgo"
