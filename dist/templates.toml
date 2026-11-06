@@ -7457,17 +7457,17 @@ name = "wt98007"
 marketname = "Redmi 1"
 author = "GitHub@JokerQi666"
 
-# templates/common/REDMI/redmi_1s.toml · Redmi 1s
+# templates/common/REDMI/redmi_1s.toml · Redmi 1S
 [templates."redmi_1s"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "2014011"
-device = "wt93807"
-product = "wt93807"
+brand = "Redmi"
+model = "2014501"
+device = "wt96007"
+product = "wt96007"
 fingerprint = ""
-name = "wt93807"
+name = "wt96007"
 marketname = "Redmi 1S"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_2.toml · Redmi 2
 [templates."redmi_2"]
