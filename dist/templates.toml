@@ -2,7 +2,7 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 890
+count = 891
 
 # templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
 [templates."apple_watch_1"]
@@ -8119,6 +8119,18 @@ product = "marble"
 fingerprint = ""
 name = "marble"
 marketname = "Redmi Note 12 Turbo"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12r.toml · Redmi Note 12R
+[templates."redmi_note_12r"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "23076RA4BC"
+device = "sky"
+product = "sky"
+fingerprint = ""
+name = "sky"
+marketname = "Redmi Note 12R"
 author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_note_13_5g.toml · Redmi Note 13 5G
