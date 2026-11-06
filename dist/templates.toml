@@ -7497,13 +7497,13 @@ author = "GitHub@Z-fly"
 [templates."redmi_a7_pro_5g"]
 manufacturer = "Xiaomi"
 brand = "Redmi"
-model = "26020RN1AI"
+model = "26020RN1AC"
 device = "somalia"
 product = "somalia"
 fingerprint = ""
 name = "somalia"
 marketname = "REDMI A7 Pro 5G"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_k100_pro.toml · REDMI K100 Pro
 [templates."redmi_k100_pro"]
