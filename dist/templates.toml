@@ -8400,7 +8400,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_5a.toml · Redmi Note 5A
 [templates."redmi_note_5a"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "MDE6S"
  device = "ugg"
  product = "ugg"
