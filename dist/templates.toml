@@ -8388,7 +8388,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_5.toml · Redmi Note 5
 [templates."redmi_note_5"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "MEE7S"
  device = "whyred"
  product = "whyred"
