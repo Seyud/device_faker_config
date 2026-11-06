@@ -7484,14 +7484,14 @@ author = "GitHub@JokerQi666"
 # templates/common/REDMI/redmi_2a.toml · Redmi 2A
 [templates."redmi_2a"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "HM 2A"
-device = "lte26007"
-product = "lte26007"
+brand = "Redmi"
+model = "2014816"
+device = "wt86047"
+product = "wt86047"
 fingerprint = ""
-name = "lte26007"
+name = "wt86047"
 marketname = "Redmi 2A"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_a7_pro_5g.toml · REDMI A7 Pro 5G
 [templates."redmi_a7_pro_5g"]
