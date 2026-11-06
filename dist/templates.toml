@@ -7449,13 +7449,13 @@ author = "Github@jekee550"
 [templates."redmi_1"]
 manufacturer = "Xiaomi"
 brand = "Redmi"
-model = "2013022"
-device = "wt93007"
-product = "wt93007"
+model = "2013023"
+device = "wt98007"
+product = "wt98007"
 fingerprint = ""
-name = "wt93007"
+name = "wt98007"
 marketname = "Redmi 1"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_1s.toml · Redmi 1s
 [templates."redmi_1s"]
