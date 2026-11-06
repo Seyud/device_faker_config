@@ -7472,7 +7472,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_2.toml · Redmi 2
 [templates."redmi_2"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
+brand = "Redmi"
 model = "HM 2LTE-CMCC"
 device = "wt88047"
 product = "wt88047"
