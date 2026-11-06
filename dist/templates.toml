@@ -8328,7 +8328,7 @@ author = "GitHub@JokerQi666"
 # templates/common/REDMI/redmi_note_1s.toml · Redmi Note 1S
 [templates."redmi_note_1s"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
+brand = "Redmi"
 model = "2014915"
 device = "gucci"
 product = "gucci"
