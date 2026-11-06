@@ -8424,7 +8424,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_7_pro.toml · Redmi Note 7 Pro
 [templates."redmi_note_7_pro"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "M1901F7BE"
  device = "violet"
  product = "violet"
