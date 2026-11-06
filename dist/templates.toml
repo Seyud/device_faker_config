@@ -7448,7 +7448,7 @@ author = "Github@jekee550"
 # templates/common/REDMI/redmi_1.toml · Redmi 1
 [templates."redmi_1"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
+brand = "Redmi"
 model = "2013022"
 device = "wt93007"
 product = "wt93007"
