@@ -10487,17 +10487,17 @@ name = "gemini"
 marketname = "Xiaomi 5"
 author = "GitHub@JokerQi666"
 
-# templates/common/Xiaomi/xiaomi_5c.toml · Xiaomi 5c
-[templates."xiaomi_5c"]
+# templates/common/Xiaomi/xiaomi_5s.toml · Xiaomi 5s
+[templates."xiaomi_5s"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 5C"
-device = "meri"
-product = "meri"
+model = "2015711"
+device = "capricorn"
+product = "capricorn"
 fingerprint = ""
-name = "meri"
-marketname = "Xiaomi 5c"
-author = "GitHub@Z-fly"
+name = "capricorn"
+marketname = "Xiaomi 5s"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_6.toml · Xiaomi 6
 [templates."xiaomi_6"]
