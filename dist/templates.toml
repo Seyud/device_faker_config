@@ -10451,17 +10451,17 @@ name = "cancro"
 marketname = "Xiaomi 4"
 author = "GitHub@JokerQi666"
 
-# templates/common/Xiaomi/xiaomi_4i.toml · Xiaomi 4i
-[templates."xiaomi_4i"]
+# templates/common/Xiaomi/xiaomi_4c.toml · Xiaomi 4c
+[templates."xiaomi_4c"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "Mi 4i"
-device = "ferrari"
-product = "ferrari"
+model = "2015561"
+device = "libra"
+product = "libra"
 fingerprint = ""
-name = "ferrari"
-marketname = "Xiaomi 4i"
-author = "GitHub@Z-fly"
+name = "libra"
+marketname = "Xiaomi 4c"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_5.toml · Xiaomi 5
 [templates."xiaomi_5"]
