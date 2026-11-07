@@ -10431,13 +10431,13 @@ author = "GitHub@JokerQi666"
 [templates."xiaomi_3"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 3"
-device = "pisces"
-product = "pisces"
+model = "2013063"
+device = "cancro"
+product = "cancro"
 fingerprint = ""
-name = "pisces"
-marketname = "Xiaomi 3 TD"
-author = "GitHub@Z-fly"
+name = "cancro"
+marketname = "Xiaomi 3"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_4.toml · Xiaomi 4 LTE
 [templates."xiaomi_4"]
