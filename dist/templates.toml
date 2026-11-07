@@ -10395,13 +10395,13 @@ author = "GitHub@JokerQi666"
 [templates."xiaomi_2"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2"
+model = "2012062"
 device = "aries"
 product = "aries"
-fingerprint = "Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys"
+fingerprint = ""
 name = "aries"
 marketname = "Xiaomi 2"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_2a.toml · Xiaomi 2A
 [templates."xiaomi_2a"]
