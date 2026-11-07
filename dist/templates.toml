@@ -10407,13 +10407,13 @@ author = "GitHub@JokerQi666"
 [templates."xiaomi_2a"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2A"
+model = "2012121"
 device = "taurus"
 product = "taurus"
 fingerprint = ""
 name = "taurus"
 marketname = "Xiaomi 2A"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_2s.toml · Xiaomi 2S
 [templates."xiaomi_2s"]
