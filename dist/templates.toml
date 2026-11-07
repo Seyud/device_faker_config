@@ -10479,13 +10479,13 @@ author = "GitHub@JokerQi666"
 [templates."xiaomi_5"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 5"
+model = "2015628"
 device = "gemini"
 product = "gemini"
 fingerprint = ""
 name = "gemini"
 marketname = "Xiaomi 5"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_5c.toml · Xiaomi 5c
 [templates."xiaomi_5c"]
