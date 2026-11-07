@@ -2,7 +2,7 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 904
+count = 905
 
 # templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
 [templates."apple_watch_1"]
@@ -10569,6 +10569,18 @@ product = "dipper"
 fingerprint = ""
 name = "dipper"
 marketname = "Xiaomi 8"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8_se.toml · Xiaomi 8 SE
+[templates."xiaomi_8_se"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1805E2A"
+device = "sirius"
+product = "sirius"
+fingerprint = ""
+name = "sirius"
+marketname = "Xiaomi 8 SE"
 author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_8_屏幕指纹版.toml · Xiaomi 8 屏幕指纹版
