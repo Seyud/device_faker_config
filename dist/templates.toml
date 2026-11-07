@@ -10559,17 +10559,17 @@ name = "wayne"
 marketname = "Xiaomi 6X"
 author = "GitHub@JokerQi666"
 
-# templates/common/Xiaomi/xiaomi_8.toml · Xiaomi 8 Explorer Edition
+# templates/common/Xiaomi/xiaomi_8.toml · Xiaomi 8
 [templates."xiaomi_8"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "M1807E8S"
-device = "ursa"
-product = "ursa"
-fingerprint = "Xiaomi/ursa/ursa:9/PKQ1.180729.001/V10.2.1.0.PEHCNXM:user/release-keys"
-name = "ursa"
-marketname = "Xiaomi 8 Explorer Edition"
-author = "GitHub@Z-fly"
+model = "M1803E1A"
+device = "dipper"
+product = "dipper"
+fingerprint = ""
+name = "dipper"
+marketname = "Xiaomi 8"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_9.toml · Xiaomi 9
 [templates."xiaomi_9"]
