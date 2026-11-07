@@ -1,10 +1,10 @@
-[templates."Xiaomi 4 LTE"]
+[templates."Xiaomi 4"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 4LTE"
+model = "2014719"
 device = "cancro"
 product = "cancro"
 fingerprint = ""
 name = "cancro"
-marketname = "Xiaomi 4 LTE"
-author = "GitHub@Z-fly"
+marketname = "Xiaomi 4"
+author = "GitHub@JokerQi666"
