@@ -2,7 +2,7 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 884
+count = 909
 
 # templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
 [templates."apple_watch_1"]
@@ -7448,62 +7448,62 @@ author = "Github@jekee550"
 # templates/common/REDMI/redmi_1.toml · Redmi 1
 [templates."redmi_1"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "2013022"
-device = "wt93007"
-product = "wt93007"
+brand = "Redmi"
+model = "2013023"
+device = "wt98007"
+product = "wt98007"
 fingerprint = ""
-name = "wt93007"
+name = "wt98007"
 marketname = "Redmi 1"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
-# templates/common/REDMI/redmi_1s.toml · Redmi 1s
+# templates/common/REDMI/redmi_1s.toml · Redmi 1S
 [templates."redmi_1s"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "2014011"
-device = "wt93807"
-product = "wt93807"
+brand = "Redmi"
+model = "2014501"
+device = "wt96007"
+product = "wt96007"
 fingerprint = ""
-name = "wt93807"
+name = "wt96007"
 marketname = "Redmi 1S"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_2.toml · Redmi 2
 [templates."redmi_2"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "HM 2LTE-CMCC"
+brand = "Redmi"
+model = "2014812"
 device = "wt88047"
 product = "wt88047"
 fingerprint = ""
 name = "wt88047"
 marketname = "Redmi 2"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_2a.toml · Redmi 2A
 [templates."redmi_2a"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "HM 2A"
-device = "lte26007"
-product = "lte26007"
+brand = "Redmi"
+model = "2014816"
+device = "wt86047"
+product = "wt86047"
 fingerprint = ""
-name = "lte26007"
+name = "wt86047"
 marketname = "Redmi 2A"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_a7_pro_5g.toml · REDMI A7 Pro 5G
 [templates."redmi_a7_pro_5g"]
 manufacturer = "Xiaomi"
 brand = "Redmi"
-model = "26020RN1AI"
+model = "26020RN1AC"
 device = "somalia"
 product = "somalia"
 fingerprint = ""
 name = "somalia"
 marketname = "REDMI A7 Pro 5G"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_k100_pro.toml · REDMI K100 Pro
 [templates."redmi_k100_pro"]
@@ -7956,7 +7956,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_1.toml · Redmi Note 1
 [templates."redmi_note_1"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
+brand = "Redmi"
 model = "2014022"
 device = "dior"
 product = "dior"
@@ -8013,6 +8013,18 @@ name = "evergo"
 marketname = "Redmi Note 11 5G"
 author = "GitHub@JokerQi666"
 
+# templates/common/REDMI/redmi_note_11_pro+.toml · Redmi Note 11 Pro+
+[templates."redmi_note_11_pro+"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "21091116UC"
+device = "pissarro"
+product = "pissarro"
+fingerprint = ""
+name = "pissarro"
+marketname = "Redmi Note 11 Pro+"
+author = "GitHub@JokerQi666"
+
 # templates/common/REDMI/redmi_note_11_pro.toml · Redmi Note 11 Pro
 [templates."redmi_note_11_pro"]
 manufacturer = "Xiaomi"
@@ -8025,6 +8037,114 @@ name = "pissarro"
 marketname = "Redmi Note 11 Pro"
 author = "GitHub@JokerQi666"
 
+# templates/common/REDMI/redmi_note_11e_5g.toml · Redmi Note 11E 5G
+[templates."redmi_note_11e_5g"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22041219C"
+device = "light"
+product = "light"
+fingerprint = ""
+name = "light"
+marketname = "Redmi Note 11E 5G"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_11e_pro.toml · Redmi Note 11E Pro
+[templates."redmi_note_11e_pro"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "2201116SC"
+device = "veux"
+product = "veux"
+fingerprint = ""
+name = "veux"
+marketname = "Redmi Note 11E Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_11r.toml · Redmi Note 11R
+[templates."redmi_note_11r"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22095RA98C"
+device = "lightcm"
+product = "lightcm"
+fingerprint = ""
+name = "lightcm"
+marketname = "Redmi Note 11R"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_11t_pro+.toml · Redmi Note 11T Pro+
+[templates."redmi_note_11t_pro+"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22041216UC"
+device = "xaga"
+product = "xaga"
+fingerprint = ""
+name = "xaga"
+marketname = "Redmi Note 11T Pro+"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_11t_pro.toml · Redmi Note 11T Pro
+[templates."redmi_note_11t_pro"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22041216C"
+device = "xaga"
+product = "xaga"
+fingerprint = ""
+name = "xaga"
+marketname = "Redmi Note 11T Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12_5g.toml · Redmi Note 12 5G
+[templates."redmi_note_12_5g"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22101317"
+device = "sunstone"
+product = "sunstone"
+fingerprint = ""
+name = "sunstone"
+marketname = "Redmi Note 12 5G"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12_pro+.toml · Redmi Note 12 Pro+
+[templates."redmi_note_12_pro+"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22101316UCP"
+device = "rubypro"
+product = "rubypro"
+fingerprint = ""
+name = "rubypro"
+marketname = "Redmi Note 12 Pro+"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12_pro.toml · Redmi Note 12 Pro
+[templates."redmi_note_12_pro"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22101316C"
+device = "ruby"
+product = "ruby"
+fingerprint = ""
+name = "ruby"
+marketname = "Redmi Note 12 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12_pro_极速版.toml · Redmi Note 12 Pro 极速版
+[templates."redmi_note_12_pro_极速版"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22101320C"
+device = "redwood"
+product = "redwood"
+fingerprint = ""
+name = "redwood"
+marketname = "Redmi Note 12 Pro 极速版"
+author = "GitHub@JokerQi666"
+
 # templates/common/REDMI/redmi_note_12_turbo.toml · Redmi Note 12 Turbo
 [templates."redmi_note_12_turbo"]
 manufacturer = "Xiaomi"
@@ -8035,6 +8155,42 @@ product = "marble"
 fingerprint = ""
 name = "marble"
 marketname = "Redmi Note 12 Turbo"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12_探索版.toml · Redmi Note 12 探索版
+[templates."redmi_note_12_探索版"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "22101316UC"
+device = "rubyplus"
+product = "rubyplus"
+fingerprint = ""
+name = "rubyplus"
+marketname = "Redmi Note 12 探索版"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12r.toml · Redmi Note 12R
+[templates."redmi_note_12r"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "23076RA4BC"
+device = "sky"
+product = "sky"
+fingerprint = ""
+name = "sky"
+marketname = "Redmi Note 12R"
+author = "GitHub@JokerQi666"
+
+# templates/common/REDMI/redmi_note_12t_pro.toml · Redmi Note 12T Pro
+[templates."redmi_note_12t_pro"]
+manufacturer = "Xiaomi"
+brand = "Redmi"
+model = "23054RA19C"
+device = "pearl"
+product = "pearl"
+fingerprint = ""
+name = "pearl"
+marketname = "Redmi Note 12T Pro"
 author = "GitHub@JokerQi666"
 
 # templates/common/REDMI/redmi_note_13_5g.toml · Redmi Note 13 5G
@@ -8172,7 +8328,7 @@ author = "GitHub@JokerQi666"
 # templates/common/REDMI/redmi_note_1s.toml · Redmi Note 1S
 [templates."redmi_note_1s"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
+brand = "Redmi"
 model = "2014915"
 device = "gucci"
 product = "gucci"
@@ -8184,7 +8340,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_2.toml · Redmi Note 2
 [templates."redmi_note_2"]
  manufacturer = "Xiaomi"
- brand = "Xiaomi"
+ brand = "Redmi"
  model = "2015052"
  device = "hermes"
  product = "hermes"
@@ -8196,7 +8352,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_3.toml · Redmi Note 3
 [templates."redmi_note_3"]
  manufacturer = "Xiaomi"
- brand = "Xiaomi"
+ brand = "Redmi"
  model = "2015115"
  device = "kenzo"
  product = "kenzo"
@@ -8220,7 +8376,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_4x.toml · Redmi Note 4X
 [templates."redmi_note_4x"]
  manufacturer = "Xiaomi"
- brand = "Xiaomi"
+ brand = "Redmi"
  model = "MBE6A5"
  device = "nikel"
  product = "nikel"
@@ -8232,7 +8388,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_5.toml · Redmi Note 5
 [templates."redmi_note_5"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "MEE7S"
  device = "whyred"
  product = "whyred"
@@ -8244,7 +8400,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_5a.toml · Redmi Note 5A
 [templates."redmi_note_5a"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "MDE6S"
  device = "ugg"
  product = "ugg"
@@ -8256,7 +8412,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_7.toml · Redmi Note 7
 [templates."redmi_note_7"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "M1901F7E"
  device = "lavender"
  product = "lavender"
@@ -8268,7 +8424,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_7_pro.toml · Redmi Note 7 Pro
 [templates."redmi_note_7_pro"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "M1901F7BE"
  device = "violet"
  product = "violet"
@@ -8280,7 +8436,7 @@ author = "GitHub@Z-fly"
 # templates/common/REDMI/redmi_note_8.toml · Redmi Note 8
 [templates."redmi_note_8"]
  manufacturer = "Xiaomi"
- brand = "xiaomi"
+ brand = "Redmi"
  model = "M1908C3JE"
  device = "ginkgo"
  product = "ginkgo"
@@ -9783,13 +9939,13 @@ author = "GitHub@JokerQi666"
 [templates."xiaomi_1"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI-ONE"
+model = "MI-ONE PLUS"
 device = "mione_plus"
 product = "mione_plus"
 fingerprint = ""
 name = "mione_plus"
-marketname = "Xiaomi Mi-One Youth Edition"
-author = "GitHub@Z-fly"
+marketname = "Xiaomi 1"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_10.toml · Xiaomi 10
 [templates."xiaomi_10"]
@@ -10223,101 +10379,161 @@ name = "madrid"
 marketname = "Xiaomi 18 Pro Max"
 author = "GitHub@JokerQi666"
 
+# templates/common/Xiaomi/xiaomi_1s.toml · Xiaomi 1S
+[templates."xiaomi_1s"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2012053"
+device = "mione_plus"
+product = "mione_plus"
+fingerprint = ""
+name = "mione_plus"
+marketname = "Xiaomi 1S"
+author = "GitHub@JokerQi666"
+
 # templates/common/Xiaomi/xiaomi_2.toml · Xiaomi 2
 [templates."xiaomi_2"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2"
+model = "2012062"
 device = "aries"
 product = "aries"
-fingerprint = "Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys"
+fingerprint = ""
 name = "aries"
 marketname = "Xiaomi 2"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_2a.toml · Xiaomi 2A
 [templates."xiaomi_2a"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2A"
+model = "2012121"
 device = "taurus"
 product = "taurus"
 fingerprint = ""
 name = "taurus"
 marketname = "Xiaomi 2A"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_2s.toml · Xiaomi 2S
 [templates."xiaomi_2s"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 2S"
+model = "2013021"
 device = "aries"
 product = "aries"
-fingerprint = "Xiaomi/aries/aries:6.0.1/MMB29M/6.3.22:userdebug/test-keys"
+fingerprint = ""
 name = "aries"
 marketname = "Xiaomi 2S"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_3.toml · Xiaomi 3
 [templates."xiaomi_3"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 3"
-device = "pisces"
-product = "pisces"
-fingerprint = ""
-name = "pisces"
-marketname = "Xiaomi 3 TD"
-author = "GitHub@Z-fly"
-
-# templates/common/Xiaomi/xiaomi_4.toml · Xiaomi 4 LTE
-[templates."xiaomi_4"]
-manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "MI 4LTE"
+model = "2013063"
 device = "cancro"
 product = "cancro"
 fingerprint = ""
 name = "cancro"
-marketname = "Xiaomi 4 LTE"
-author = "GitHub@Z-fly"
+marketname = "Xiaomi 3"
+author = "GitHub@JokerQi666"
 
-# templates/common/Xiaomi/xiaomi_4i.toml · Xiaomi 4i
-[templates."xiaomi_4i"]
+# templates/common/Xiaomi/xiaomi_4.toml · Xiaomi 4
+[templates."xiaomi_4"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "Mi 4i"
-device = "ferrari"
-product = "ferrari"
+model = "2014719"
+device = "cancro"
+product = "cancro"
 fingerprint = ""
-name = "ferrari"
-marketname = "Xiaomi 4i"
-author = "GitHub@Z-fly"
+name = "cancro"
+marketname = "Xiaomi 4"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_4c.toml · Xiaomi 4c
+[templates."xiaomi_4c"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2015561"
+device = "libra"
+product = "libra"
+fingerprint = ""
+name = "libra"
+marketname = "Xiaomi 4c"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_4s.toml · Xiaomi 4S
+[templates."xiaomi_4s"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2015911"
+device = "aqua"
+product = "aqua"
+fingerprint = ""
+name = "aqua"
+marketname = "Xiaomi 4S"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_5.toml · Xiaomi 5
 [templates."xiaomi_5"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 5"
+model = "2015628"
 device = "gemini"
 product = "gemini"
 fingerprint = ""
 name = "gemini"
 marketname = "Xiaomi 5"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_5c.toml · Xiaomi 5c
 [templates."xiaomi_5c"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
-model = "MI 5C"
+model = "2016089"
 device = "meri"
 product = "meri"
 fingerprint = ""
 name = "meri"
 marketname = "Xiaomi 5c"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_5s.toml · Xiaomi 5s
+[templates."xiaomi_5s"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2015711"
+device = "capricorn"
+product = "capricorn"
+fingerprint = ""
+name = "capricorn"
+marketname = "Xiaomi 5s"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_5s_plus.toml · Xiaomi 5s Plus
+[templates."xiaomi_5s_plus"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "2016070"
+device = "natrium"
+product = "natrium"
+fingerprint = ""
+name = "natrium"
+marketname = "Xiaomi 5s Plus"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_5x.toml · Xiaomi 5X
+[templates."xiaomi_5x"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "MDE2"
+device = "tiffany"
+product = "tiffany"
+fingerprint = ""
+name = "tiffany"
+marketname = "Xiaomi 5X"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_6.toml · Xiaomi 6
 [templates."xiaomi_6"]
@@ -10331,17 +10547,77 @@ name = "sagit"
 marketname = "Xiaomi 6"
 author = "GitHub@anorin527"
 
-# templates/common/Xiaomi/xiaomi_8.toml · Xiaomi 8 Explorer Edition
+# templates/common/Xiaomi/xiaomi_6x.toml · Xiaomi 6X
+[templates."xiaomi_6x"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1804D2SE"
+device = "wayne"
+product = "wayne"
+fingerprint = ""
+name = "wayne"
+marketname = "Xiaomi 6X"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8.toml · Xiaomi 8
 [templates."xiaomi_8"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1803E1A"
+device = "dipper"
+product = "dipper"
+fingerprint = ""
+name = "dipper"
+marketname = "Xiaomi 8"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8_se.toml · Xiaomi 8 SE
+[templates."xiaomi_8_se"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1805E2A"
+device = "sirius"
+product = "sirius"
+fingerprint = ""
+name = "sirius"
+marketname = "Xiaomi 8 SE"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8_屏幕指纹版.toml · Xiaomi 8 屏幕指纹版
+[templates."xiaomi_8_屏幕指纹版"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1807E8A"
+device = "equuleus"
+product = "equuleus"
+fingerprint = ""
+name = "equuleus"
+marketname = "Xiaomi 8 屏幕指纹版"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8_透明探索版.toml · Xiaomi 8 透明探索版
+[templates."xiaomi_8_透明探索版"]
 manufacturer = "Xiaomi"
 brand = "Xiaomi"
 model = "M1807E8S"
 device = "ursa"
 product = "ursa"
-fingerprint = "Xiaomi/ursa/ursa:9/PKQ1.180729.001/V10.2.1.0.PEHCNXM:user/release-keys"
+fingerprint = ""
 name = "ursa"
-marketname = "Xiaomi 8 Explorer Edition"
-author = "GitHub@Z-fly"
+marketname = "Xiaomi 8 透明探索版"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_8_青春版.toml · Xiaomi 8 青春版
+[templates."xiaomi_8_青春版"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1808D2TE"
+device = "platina"
+product = "platina"
+fingerprint = ""
+name = "platina"
+marketname = "Xiaomi 8 青春版"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_9.toml · Xiaomi 9
 [templates."xiaomi_9"]
@@ -10354,6 +10630,30 @@ fingerprint = ""
 name = "cepheus"
 marketname = "Xiaomi 9"
 author = "GitHub@Z-fly"
+
+# templates/common/Xiaomi/xiaomi_9_pro.toml · Xiaomi 9 Pro
+[templates."xiaomi_9_pro"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1908F1XE"
+device = "crux"
+product = "crux"
+fingerprint = ""
+name = "crux"
+marketname = "Xiaomi 9 Pro"
+author = "GitHub@JokerQi666"
+
+# templates/common/Xiaomi/xiaomi_9_se.toml · Xiaomi 9 SE
+[templates."xiaomi_9_se"]
+manufacturer = "Xiaomi"
+brand = "Xiaomi"
+model = "M1903F2A"
+device = "grus"
+product = "grus"
+fingerprint = ""
+name = "grus"
+marketname = "Xiaomi 9 SE"
+author = "GitHub@JokerQi666"
 
 # templates/common/Xiaomi/xiaomi_civi.toml · Xiaomi Civi
 [templates."xiaomi_civi"]

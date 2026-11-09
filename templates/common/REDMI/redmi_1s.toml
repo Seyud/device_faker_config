@@ -1,10 +1,10 @@
-[templates."Redmi 1s"]
+[templates."Redmi 1S"]
 manufacturer = "Xiaomi"
-brand = "Xiaomi"
-model = "2014011"
-device = "wt93807"
-product = "wt93807"
+brand = "Redmi"
+model = "2014501"
+device = "wt96007"
+product = "wt96007"
 fingerprint = ""
-name = "wt93807"
+name = "wt96007"
 marketname = "Redmi 1S"
-author = "GitHub@Z-fly"
+author = "GitHub@JokerQi666"
