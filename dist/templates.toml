@@ -2,7 +2,7 @@
 # 内容 = templates/**/*.toml 按路径排序后的机械拼接（表头换成文件名，字段逐字保留）。
 # WebUI 在线模板库拉这一个文件即可拿到全部模板（替代逐文件 700+ 次请求）。
 schema_version = 1
-count = 910
+count = 911
 
 # templates/common/APPLE/apple_watch_1.toml · Apple Watch 1
 [templates."apple_watch_1"]
@@ -11205,6 +11205,36 @@ characteristics = "tablet,nosdcard"
 force_denylist_unmount = true
 author = "GitHub@Seyud"
 description = "拼多多 / 企业微信 平板模式"
+
+# templates/transcend/Pixel/pixel_6a_pif.toml · pixel_6a_pif
+[templates."pixel_6a_pif"]
+description = "Pixel 6a PIF · Google Play 服务和 Play 商店"
+packages = ["com.google.android.gms", "com.android.vending"]
+manufacturer = "Google"
+brand = "google"
+model = "Pixel 6a"
+fingerprint = "google/bluejay_beta/bluejay:CANARY/ZP11.260918.007/16484274:user/release-keys"
+security_patch = "2026-10-01"
+companion_resetprop = false
+force_denylist_unmount = false
+
+# 仅设置出厂 API 属性。当前 Android SDK 由系统提供。
+custom_props."ro.product.first_api_level" = "32"
+custom_props."ro.board.first_api_level" = "32"
+custom_props."ro.build.product" = "bluejay"
+custom_props."ro.vendor.boot_security_patch" = "2026-10-01"
+
+# 如需同步 KeyMint 证明，以下配置供支持 app_patch_levels 的 OhMyKeymint 版本使用。
+# 复制到 OhMyKeymint 的 config.toml 时去掉行首的 #，保留 [trust] 的全局日期设置。
+# [app_patch_levels."com.google.android.gms"]
+# os_patchlevel = "2026-10-01"
+# vendor_patchlevel = "2026-10-01"
+# boot_patchlevel = "2026-10-01"
+#
+# [app_patch_levels."com.android.vending"]
+# os_patchlevel = "2026-10-01"
+# vendor_patchlevel = "2026-10-01"
+# boot_patchlevel = "2026-10-01"
 
 # templates/transcend/Samsung/samsung_z_fold6.toml · Samsung Galaxy Z Fold6
 [templates."samsung_z_fold6"]
