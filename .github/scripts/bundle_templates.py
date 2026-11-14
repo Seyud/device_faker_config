@@ -9,7 +9,7 @@
 - 不新增任何字段语义：WebUI 用现有 `sanitizeTemplate` 即可消费。
 
 同时把两条隐含不变式变成硬检查（fail 而不是静默降级）：
-- 每个模板文件必须是「恰好一个 [templates."<名字>"] 表、无其它顶层键、无子表」；
+- 每个模板文件必须恰好有一个 `[templates."<名字>"]` 表，无其它顶层键；允许字符串映射 `custom_props`；
 - stem 必须全局唯一——WebUI 用 stem 作为导入键，同名会让两条模板互相覆盖。
 
 **dist/templates.toml 是 CI 产物，PR 不需要提交它**：push 到 main 后由
@@ -98,8 +98,11 @@ def collect() -> list[Entry]:
                 for key, value in body_value.items()
                 if isinstance(value, dict) or (isinstance(value, list) and any(isinstance(v, dict) for v in value))
             ]
+            custom_props = body_value.get("custom_props")
+            if isinstance(custom_props, dict) and all(isinstance(value, str) for value in custom_props.values()):
+                nested.remove("custom_props")
             if nested:
-                errors.append(f"{rel_path}: 模板内出现子表/子表数组 {nested}，bundle 只支持扁平字段")
+                errors.append(f"{rel_path}: 不支持的子表/子表数组 {nested}")
                 continue
 
             # 表头不一定是第一行：仓库里有文件以空行/缩进开头（如 huawei_matepad.toml），
@@ -111,12 +114,23 @@ def collect() -> list[Entry]:
                 errors.append(f"{rel_path}: 找不到 [templates...] 表头（实际: {actual!r}）")
                 continue
 
+            body = "\n".join(lines[header_index + 1 :]).rstrip("\n")
+            if isinstance(custom_props, dict):
+                # 重写模板表头后，属性仍须属于同一个模板。
+                try:
+                    bundled = tomllib.loads(f'[templates."{stem}"]\n{body}')
+                except tomllib.TOMLDecodeError:
+                    bundled = None
+                if bundled != {"templates": {stem: body_value}}:
+                    errors.append(f"{rel_path}: 重写表头后无法保留 custom_props，请使用点号键或内联表")
+                    continue
+
             entries.append(
                 Entry(
                     stem=stem,
                     rel_path=rel_path,
                     inner_name=inner_name,
-                    body="\n".join(lines[header_index + 1 :]).rstrip("\n"),
+                    body=body,
                 )
             )
 
